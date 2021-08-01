@@ -1,40 +1,104 @@
-# Proxecto de fin de ciclo DAW
+# [![logo]][repoProxecto]
 
-> *Tarefa*: Este documento será a páxina de inicio do teu proxecto. Será o primero que vexan os que se interesen por el. Coida a súa redacción e ortografía. Elimina todas as liñas "*Tarefa*" cando teñas a redacción de todo o proxecto completada.
-> Podes acompañar a redacción deste ficheiros con imaxes ou GIFs, pero non abuses deles. 
+## Proxecto de fin de ciclo DAW
 
+### Descrición
 
-## Descrición
-> *Tarefa*: Realiza unha breve descrición do proxecto (entre 100 e 300 palabras). Resalta o fundamental **coas túas palabras**. Utiliza unha linguaxe correcta, pero natural, que o entenda todo o mundo, incluso e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estrato ou resumo dos apartados que se contemplan na memoria.
+**ProxectOS** pretende dar cobertura á necesidade de organizar o traballo á hora de desenvolver e planificar tódalas fases de proxectos de software por parte dun equipo de desenvolvemento.
 
-## Instalación
-> *Tarefa*: Neste apartado describe con toda precisión e, a poder ser, coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun entorno local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (por exemplo, un script de instalación).
+Tamén se contempla a posibilidade de que teñan acceso á información (ou parte da mesma) de **cada proxecto** e ó seu estado as distintas partes implicadas (clientes, comerciais, equipo de programación...) mediante o rexistro de `usuarios` e a asignación de `roles` de acceso ó aplicativo.
 
-## Uso
-> *Tarefa*: Neste apartado, describe brevemente como se usará o software. Se ten unha interfaz de terminal, describe aquí a súa sintaxe. Se ten unha interfaz gráfica de usuario, describe aquí **só o uso** (a modo de sumario) **dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, como se fose un anuncio reclamo ou comercial).
+### Sobre el autor
 
-## Sobre el autor
-> *Tarefa*: Realiza unha breve descrición de quen es desde unha perspectiva profesional, os teus puntos fortes, tecnoloxías que máis dominas e o motivo de por que te decantaches por este proxecto. **Non máis de 200 palabras**. Indica unha forma fiable de contactar contigo no presente e no futuro.
+**Contacto:** a18franciscogc@iessanclemente.net
 
-## Licencia
-> *Tarefa*: É requisito INDISPENSABLE licenciar explicitamente o proxecto. Crea un ficheiro `LICENSE` na raíz do repositorio.
+O meu nome é **Fco. Javier González Campos** e son técnico superior en **ASI** (Administración de Sistemas Informáticos) e **DAM** (Desenvolvemento de Aplicacións Multiplataforma) `(espero que en breve)`, tamén son membro de **Inestable**, a Asociación de Usuarios de GNU/Linux de Ordes (aínda que actualmente estamos sen actividade pública).
 
-## Guía de contribución
-> *Tarefa*: Se o teu proxecto se trata de software libre, é importante que expoñas como se pode contribuir a el. Algúns exemplos disto son realizar novas funcionalidades, corrección e/ou optimización de código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins, etc. Intenta dar unha mensaxe concisa.
+Algunhas das tecnoloxías que domino son:
 
+* Sistemas Operativos GNU/Linux e Windows (estacións de traballo e servidores)
+* Administración de redes
+* Linguaxes de programacións: `Java, Python, VB.NET, C#, C/C++ e Pascal`
+* Sistemas Xestores de BD: `MySQL, MS SQL Server, MongoDB, PostgreSQL e Oracle`
 
-## Memoria
+Despois de algo máis de 15 anos de experiencia na administrción e mantemento de equipos informáticos non atopei ningún software que se adaptase ó 100% ás necesidades que tiña para a documentación e o seguimento das actividades profesionais realizadas. Por ese motivo decidín iniciar este proxecto e así tentar cubrir esas demandas intentando xeneralizar o proxecto todo o posible para abarcar o mair número de sectores e calquera outro con requisitos parecidos.
 
-> *Tarefa*: Indexa de forma ordenada a memoria do teu proxecto.
-> Durante a redacción da memoria, debes ir completando progresivamente o anexo de Referencias.
+### Licenza
 
-1. [Estudo preliminar](doc/templates/1_estudo_preliminar.md)
-2. [Análise: Requerimentos do sistema](doc/templates/2_analise.md)
-3. [Deseño](doc/templates/3_deseno.md)
-4. [Codificación e Probas](doc/templates/4_codificacion_probas.md)
-5. [Manuais](doc/templates/5_manuais.md)
+Este software licenciase baixo as condicións descritas no ficheiro [LICENSE.md] que se incormpora na raíz desde repoisitorio. Dito ficheiro describe unha licenza [GNU-AGPL] da [FSF] (Free Software Foundation).
 
-#### Anexos
-1. [Referencias](doc/templates/a1_referencias.md)
-1. [Planificación](doc/templates/a2_planificacion.md)
-2. [Orzamento](doc/templates/a3_orzamento.md)
+### Limitación de responsabilidades
+
+Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia, de posibles danos nin indemnizacións, moral ou patrimonial; directos ou indirectos; polo uso deste software ou pola perdida, parcial ou total, da información introducida polo mencionado software. O anterior inclúe os gastos asociados á fallas de comunicación e/ou de funcionamento de equipos informáticos vinculados co depregamento preciso para o seu emprego.
+
+### Notificar un erro
+
+Se atopaches un erro por favor acude á sección [Notificando unha incidencia][NovaIncidencia] do ficheiro [CONTRIBUTING] e notificao, agradezoche toda a axuda que poidas ofrecer.
+
+### Guía de contribución
+
+Antes de nada quero agradecerche se estás interesado en contribuír a este pequeno proxecto, no seguinte documento [CONTRIBUTING] están as redactadas os xeitos nos que poderías axudar, gracias.
+
+### Atribucións
+
+Lista de autores:
+
+| Autor                         | Contacto                          | Contribución
+|:-                             |:-                                 |:-
+| Foc. Javier González Campos   | a18franciscogc@iessanclemente.net | Programador principal
+
+### Enlaces
+
+| ENLACE                                        | DESTINO
+|:-                                             |:-
+| [FSF]                                         | Free Software Foundation
+| [GNU-AGPL]                                    | Licenza GNU-AGPL
+| [Repositorio Proxecto][repoProxecto]          | Repositorio deste proxecto
+
+[//]: # (Listado dos links empregados)
+
+   <!-- Licencia -->
+
+   [LICENSE.md]: <LICENSE.md>
+
+   <!-- Guía de contribución -->
+
+   [CONTRIBUTING]: <CONTRIBUTING.md>
+   [NovaIncidencia]: <CONTRIBUTING.md#notificando-unha-incidencia>
+
+   <!-- Enlaces a terceiros -->
+
+   [FSF]: <https://www.fsf.org/es>
+
+   [GNU-AGPL]: <https://www.gnu.org/licenses/agpl-3.0.html>
+
+   [nginx]: <https://www.nginx.com/>
+
+   <!-- Índice -->
+
+   [estudio_preliminar]: <doc/templates/1_estudo_preliminar.md>
+
+   [analise]: <doc/templates/2_analise.md>
+
+   [desenho]: <doc/templates/3_deseno.md>
+
+   [codificacion_probas]: <doc/templates/4_codificacion_probas.md>
+
+   [manuais]: <doc/templates/5_manuais.md>
+
+   [estratexia_de_versionado]: <doc/templates/6_versionado.md>
+
+   [changelog_api]: <CHANGELOG_API.md>
+   [changelog_ui]: <CHANGELOG_UI.md>
+
+   <!-- Anexos -->
+
+   [referencias]: <doc/templates/a1_referencias.md>
+   [planificacion]: <doc/templates/a2_planificacion.md>
+   [orzamento]: <doc/templates/a3_orzamento.md>
+
+   <!-- Enlaces proxecto -->
+
+   [logo]: <doc/img/logos/ProxectOS_logo1_400x85.png>
+
+   [repoProxecto]: <https://github.com/efja/proxectoDAW>
