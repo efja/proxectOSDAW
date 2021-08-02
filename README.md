@@ -4,9 +4,17 @@
 
 ### Descrición
 
-**ProxectOS** pretende dar cobertura á necesidade de organizar o traballo á hora de desenvolver e planificar tódalas fases de proxectos de software por parte dun equipo de desenvolvemento.
+**ProxectOS** pretende dar cobertura á necesidade de organizar o traballo á hora de desenvolver e planificar tódalas fases de proxectos de software por parte dun equipo de desenvolvemento a través dunha interface de usuario web.
 
 Tamén se contempla a posibilidade de que teñan acceso á información (ou parte da mesma) de **cada proxecto** e ó seu estado as distintas partes implicadas (clientes, comerciais, equipo de programación...) mediante o rexistro de `usuarios` e a asignación de `roles` de acceso ó aplicativo.
+
+<!-- ## Instalación
+
+> //TODO: Neste apartado describe con toda precisión e, a poder ser, coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun entorno local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (por exemplo, un script de instalación). -->
+
+<!-- ## Uso
+
+> //TODO: Neste apartado, describe brevemente como se usará o software. Se ten unha interfaz de terminal, describe aquí a súa sintaxe. Se ten unha interfaz gráfica de usuario, describe aquí **só o uso** (a modo de sumario) **dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, como se fose un anuncio reclamo ou comercial). -->
 
 ### Sobre el autor
 
@@ -30,6 +38,23 @@ Este software licenciase baixo as condicións descritas no ficheiro [LICENSE.md]
 ### Limitación de responsabilidades
 
 Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia, de posibles danos nin indemnizacións, moral ou patrimonial; directos ou indirectos; polo uso deste software ou pola perdida, parcial ou total, da información introducida polo mencionado software. O anterior inclúe os gastos asociados á fallas de comunicación e/ou de funcionamento de equipos informáticos vinculados co depregamento preciso para o seu emprego.
+
+## Memoria
+
+1. [Estudo preliminar][estudio_preliminar]
+<!-- 2. [Análise: Requerimentos do sistema][analise] -->
+<!-- 3. [Deseño][desenho] -->
+<!-- 4. [Codificación e Probas][codificacion_probas] -->
+<!-- 5. [Manuais][manuais] -->
+<!-- 6. [Estrateixia de versionado][estratexia_de_versionado] -->
+<!-- 7. [Changelog API][changelog_api] -->
+<!-- 8. [Changelog FRONTAL][changelog_ui] -->
+
+<!-- ### Anexos -->
+
+<!-- 1. [Referencias][referencias] -->
+<!-- 2. [Planificación][planificacion] -->
+<!-- 3. [Orzamento][orzamento] -->
 
 ### Notificar un erro
 
