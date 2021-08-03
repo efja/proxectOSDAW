@@ -14,15 +14,17 @@ A grandes rasgos manexarase a seguinte información para cada proxecto:
 
 1. Datas de comezo e fin
 2. Nome e descrición breve
-3. Xestión dos usuarios que participan (clientes, comerciais, equipo de programación...)
-4. Roles dos usuarios e permisos para acceder á información do proxecto (lectura, escritura e edición dunha parte ou da totalidade do proxecto)
-5. Repositorios ou fontes do código
-6. Rexistro de requerimentos
-7. Definición das etapas ou fases comprometidas, tendo en conta as datas de comezo e fin reais e, no caso de existir, as datas da planificación (non teñen porque coincidir)
-8. Estado actual do proxecto e de cada fase/requerimento
-9. Rexistro do avance de cada requerimento (de xeito similar ó proxecto)
-10. Histórico de actuacións para cada requerimento (de xeito similar ó proxecto)
-11. Definición de usuarios que validen o cumprimento das especificacións para cada proxecto, etapa, requerimento ou actuación
+3. Orzamento do proxecto. Tamén se poderá decidir se este é un orzamento pechado ou aberto, é dicir, que segundo vaian aumentando os custes se lle podian ou non repercutir ó cliente
+4. Estimación e cuantificación real dos custes de cada actuación, tanto económicos como en tempo, para realizar unha valoración dos custes totais de cada proxecto
+5. Xestión dos usuarios que participan (clientes, comerciais, equipo de programación...)
+6. Roles dos usuarios e permisos para acceder á información do proxecto (lectura, escritura e edición dunha parte ou da totalidade do proxecto)
+7. Repositorios ou fontes do código
+8. Rexistro de requerimentos
+9. Definición das etapas ou fases comprometidas, tendo en conta as datas de comezo e fin reais e, no caso de existir, as datas da planificación (non teñen porque coincidir)
+10. Estado actual do proxecto e de cada fase/requerimento
+11. Rexistro do avance de cada requerimento (de xeito similar ó proxecto)
+12. Histórico de actuacións para cada requerimento (de xeito similar ó proxecto)
+13. Definición de usuarios que validen o cumprimento das especificacións para cada proxecto, etapa, requerimento ou actuación
 
 ## 3. Definicións
 
@@ -50,7 +52,7 @@ O obxetivo deste proxecto é principalmente académico aínda que tamén hai unh
 Outro motivo persoal para levar a cabo **ProxectOS** é que me apetece facer algo no que poida experimentar e facer probas sen a presión de que sexa un produto comercial ó cal lle tes que dar unha estabilidade rigurosa antes de liberar unha versión definitiva, non quero dicir que co software libre non haxa que ter ese mesmo compromiso pero considero que non é o mesmo nivel de responsabilidade que cun proxecto comercial.
 
 > **NOTAS:**
-> *: a estimación económica calcularase a través dunha relación de prezo por hora.
+> *: a estimación económica calcularase a través dunha relación de prezo por hora. Poderanse incluir datos de salario, duración da xornada laboral e número de xornadas semanais para cada traballador ou traballadora.
 
 ## 5.1. Cuestións
 
