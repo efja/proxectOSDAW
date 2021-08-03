@@ -42,7 +42,7 @@ Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia
 ## Memoria
 
 1. [Estudo preliminar][estudio_preliminar]
-<!-- 2. [Análise: Requerimentos do sistema][analise] -->
+2. [Análise: Requerimentos do sistema][analise]
 <!-- 3. [Deseño][desenho] -->
 <!-- 4. [Codificación e Probas][codificacion_probas] -->
 <!-- 5. [Manuais][manuais] -->
