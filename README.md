@@ -44,7 +44,7 @@ Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia
 1. [Estudo preliminar][estudio_preliminar]
 2. [Análise: Requerimentos do sistema][analise]
 <!-- 3. [Deseño][desenho] -->
-<!-- 4. [Codificación e Probas][codificacion_probas] -->
+4. [Codificación e Probas][codificacion_probas]
 <!-- 5. [Manuais][manuais] -->
 <!-- 6. [Estrateixia de versionado][estratexia_de_versionado] -->
 <!-- 7. [Changelog API][changelog_api] -->
@@ -71,14 +71,6 @@ Lista de autores:
 | Autor                         | Contacto                          | Contribución
 |:-                             |:-                                 |:-
 | Foc. Javier González Campos   | a18franciscogc@iessanclemente.net | Programador principal
-
-### Enlaces
-
-| ENLACE                                        | DESTINO
-|:-                                             |:-
-| [FSF]                                         | Free Software Foundation
-| [GNU-AGPL]                                    | Licenza GNU-AGPL
-| [Repositorio Proxecto][repoProxecto]          | Repositorio deste proxecto
 
 [//]: # (Listado dos links empregados)
 
