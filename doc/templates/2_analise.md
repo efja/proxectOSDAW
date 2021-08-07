@@ -197,6 +197,8 @@ Este traballo dividirase en tres partes:
   ```js
     {
       historia_pai?,
+      data_creacion,
+      usuario_creacion,
       data_ini,
       data_fin,
       data_ini_prevista,
@@ -204,6 +206,9 @@ Este traballo dividirase en tres partes:
       nome,
       descricion,
       estado,
+      tempo_dev, // Exemplos: alto | medio | baixo - longo, medio ou curto
+      prioridade, // Exemplo: alta | baixa
+      tipo, // Exemplo: modificación | bug | mellora | ...
       repos: [],
       usuarios: [],
       validadores: [],
@@ -220,6 +225,7 @@ Este traballo dividirase en tres partes:
   ```js
     {
       id,
+      usuario_creacion,
       historia_pai?,
       data_ini,
       data_fin,
@@ -247,12 +253,103 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-### 2.6. Xestión de Actuacións
+### 2.6. Xestión de Tempos
 
 - Crear:
 
   ```js
     {
+      nome,
+      descricion,
+      duracion?,
+    }
+  ```
+
+- Modificar:
+
+  ```js
+    {
+      id,
+      nome,
+      descricion,
+      duracion?,
+    }
+  ```
+
+- Eliminar:
+
+  ```js
+    {
+      id
+    }
+  ```
+
+### 2.7. Xestión de Prioridades
+
+- Crear:
+
+  ```js
+    {
+      nome,
+      descricion,
+    }
+  ```
+
+- Modificar:
+
+  ```js
+    {
+      id,
+      nome,
+      descricion,
+    }
+  ```
+
+- Eliminar:
+
+  ```js
+    {
+      id
+    }
+  ```
+
+### 2.8. Xestión de Tipos
+
+- Crear:
+
+  ```js
+    {
+      nome,
+      descricion,
+    }
+  ```
+
+- Modificar:
+
+  ```js
+    {
+      id,
+      nome,
+      descricion,
+    }
+  ```
+
+- Eliminar:
+
+  ```js
+    {
+      id
+    }
+  ```
+
+### 2.9. Xestión de Actuacións
+
+- Crear:
+
+  ```js
+    {
+      data_creacion,
+      usuario_creacion,
       data_ini,
       data_fin,
       data_ini_prevista,
@@ -279,6 +376,7 @@ Este traballo dividirase en tres partes:
   ```js
     {
       id,
+      usuario_creacion,
       data_ini,
       data_fin,
       data_ini_prevista,
@@ -308,7 +406,7 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-### 2.7. Xestión de cometarios
+### 2.10. Xestión de cometarios
 
 - Crear:
 
@@ -343,7 +441,7 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-### 2.8. Xestión de repositorios
+### 2.11. Xestión de repositorios
 
 - Crear:
 
@@ -380,7 +478,7 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-### 2.9. Xestión de históricos de estados
+### 2.12. Xestión de históricos de estados
 
 En principio haberá un histórico por cada táboa que teña un estado.
 
@@ -454,32 +552,33 @@ Indica os dominios que se van a empregar.
 
 ### 5.2. Hardware
 
-Indicar elementos hardware que se usarán. Por exemplo: ordenador para desenvolver a aplicación, smartphone para probar a aplicación na súa versión móbil, servidor web, servidor de bases de datos, CDN, etc.
-
-// TODO:
+Para este proxecto empregarse un equipo de desenvolvemento e probas e un equipo virtual nun servizo de could computing online. Neste servizo despregarase un contenedor para cada servizo: `BD`, `API` e `servidor web`
 
 ### 5.3. Software
 
-Indicar software que haberá que instalar en cada elemento hardware. Por exemplo: aplicacións de desenvolvemento, aplicacións para o servidor, etc.
+Os servizos de `BD`, de `API` e de `servidor web` montaranse en tres contenedores de `docker` independentes par poder planificar copias de seguridade por separado e tamén para permitir unha alta escalabilidade ó poder replicar as máquinas que fagan falla para atender á demanda.
 
-// TODO:
+Para desenvolver o proxecto empregarei como IDE lixeiro Visual Studio Code cobrendo sobre distro de GNU/Linux.
+
+#### 5.3.1. Base de Datos
+
+Empregarase unha base de datos `mongoDB` `PostgreSQL` // TODO: decidir cando se acometa o proxecto.
+
+#### 5.3.2. API
+
+Desenvolverase baixo `NodeJS`.
+
+#### 5.3.2. Interface de Usuario
+
+Abordarase con `Angular`.
 
 ## 6. Interfaces externos
 
-Indicar como se comunicará o noso software co exterior. Os diferentes tipos son:
-
-// TODO:
-
-- De usuario. Por exemplo: as diferentes vistas da apliación, comandos de terminal, etc.
-- Hardware. Por exemplo: un lector de código de barras.
-- Software. Por exemplo: unha API.
+Implementaráse unha API.
 
 ## 7. Melloras futuras
 
-É posible que o noso proxecto se centre en resolver un problema concreto que se poderá ampliar no futuro con novas funcionalidades, novas interfaces, etc.
-
-// TODO:
-
+Sería interesante facer un estudio dos proxectos de distintas industrias e valorar a posibilidade de xeralizar os modelos de datos e o fluxo de traballo para poder ampliar horizontes a un maior rango de usuarios.
 
 [//]: # (Listado dos links empregados)
 
