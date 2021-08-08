@@ -16,7 +16,7 @@ Tamén se contempla a posibilidade de que teñan acceso á información (ou part
 
 > //TODO: Neste apartado, describe brevemente como se usará o software. Se ten unha interfaz de terminal, describe aquí a súa sintaxe. Se ten unha interfaz gráfica de usuario, describe aquí **só o uso** (a modo de sumario) **dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, como se fose un anuncio reclamo ou comercial). -->
 
-### Sobre el autor
+### Sobre o autor
 
 **Contacto:** a18franciscogc@iessanclemente.net
 
@@ -71,6 +71,14 @@ Lista de autores:
 | Autor                         | Contacto                          | Contribución
 |:-                             |:-                                 |:-
 | Foc. Javier González Campos   | a18franciscogc@iessanclemente.net | Programador principal
+
+### Enlaces
+
+| ENLACE                                        | DESTINO
+|:-                                             |:-
+| [FSF]                                         | Free Software Foundation
+| [GNU-AGPL]                                    | Licenza GNU-AGPL
+| [Repositorio Proxecto][repoProxecto]          | Repositorio deste proxecto
 
 [//]: # (Listado dos links empregados)
 

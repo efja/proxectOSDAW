@@ -8,7 +8,6 @@
 | [GNU-AGPL]                                    | Licenza GNU-AGPL
 | [Repositorio Proxecto][repoProxecto]          | Repositorio deste proxecto
 
-
 [//]: # (Listado dos links empregados)
    <!-- Enlaces a terceiros -->
 
