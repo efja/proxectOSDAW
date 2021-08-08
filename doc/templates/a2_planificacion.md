@@ -123,11 +123,10 @@ Nesta fase acometeranse de xeito máis profundo e concreto as tarefas da fase de
 
 ## Calendario
 
-Calendario que indique as datas nas cales se vai desenvolver a aplicación. Este calendario pódelo facer de dúas formas:
+![cronograma]
 
-//TODO:
+[//]: # (Listado dos links empregados)
 
-- Cunha **táboa** que recolla as diferentes accións a realizar xunto coas datas de inicio e fin de cada acción.
-- Cun **cronograma** como pode ser un diagrama de Gantt, o cal permite visualizar de forma gráfica canto vai ocupar cada acción no tempo.
+   <!-- Enlaces imaxes -->
 
-Trátase dunha estimación, moi probablemente se vai a modificar mentres se avance no proxecto.
+   [cronograma]: <../img/cronograma.png>
