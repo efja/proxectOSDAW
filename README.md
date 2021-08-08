@@ -50,10 +50,10 @@ Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia
 <!-- 7. [Changelog API][changelog_api] -->
 <!-- 8. [Changelog FRONTAL][changelog_ui] -->
 
-<!-- ### Anexos -->
+### Anexos
 
-<!-- 1. [Referencias][referencias] -->
-<!-- 2. [Planificación][planificacion] -->
+1. [Referencias][referencias]
+2. [Planificación][planificacion]
 <!-- 3. [Orzamento][orzamento] -->
 
 ### Notificar un erro
