@@ -123,6 +123,8 @@ Nesta fase acometeranse de xeito máis profundo e concreto as tarefas da fase de
 
 ## Calendario
 
+// TODO: concretar pazos ó comezar o desenrolo
+
 ![cronograma]
 
 [//]: # (Listado dos links empregados)
