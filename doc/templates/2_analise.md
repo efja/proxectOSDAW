@@ -14,7 +14,15 @@ Este traballo dividirase en tres partes:
 
 ## 2. Funcionalidades
 
+> Os diagramas están escritos na linguaxe `plantuml`, para máis información de como renderizar estos gráficos podes acudir ó seu sitio web en [https://plantuml.com][plantuml-com], para consultar a súa [instalación][plantuml-starting].
+>
+> Para ver os diagramas integrados no documento empregar as seguitnes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos, nun diagrama máis completo, no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
+
 ### 2.1. Xestión de usuarios
+
+  ```plantuml
+  !includesub ../diagramas/uml/clases/usuario.puml!PARCIAL
+  ```
 
 - Crear:
 
@@ -28,7 +36,6 @@ Este traballo dividirase en tres partes:
       [ roles ],
       salario,
       horario,
-      xornadas_semanais
     }
   ```
 
@@ -45,7 +52,6 @@ Este traballo dividirase en tres partes:
       [ roles ],
       salario,
       horario,
-      xornadas_semanais
     }
   ```
 
@@ -59,6 +65,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.2. Xestión de roles
 
+  ```plantuml
+  !include ../diagramas/uml/clases/rol.puml
+  ```
+
 - Crear:
 
   ```js
@@ -66,7 +76,7 @@ Este traballo dividirase en tres partes:
       nome,
       descrición,
       alcance: enum SISTEMA, PROXECTO, ETAPA, HISTORIA, ACTUACION,
-      permisos: [ lectura, creación, edición, eliminación]
+      permisos: [ lectura, creación, edición, eliminación ]
     }
   ```
 
@@ -91,6 +101,10 @@ Este traballo dividirase en tres partes:
   ```
 
 ### 2.3. Xestión de proxectos
+
+  ```plantuml
+  !include ../diagramas/uml/clases/proxecto.puml
+  ```
 
 - Crear:
 
@@ -145,6 +159,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.4. Xestión de etapas
 
+  ```plantuml
+  !include ../diagramas/uml/clases/etapa.puml
+  ```
+
 - Crear:
 
   ```js
@@ -191,6 +209,10 @@ Este traballo dividirase en tres partes:
   ```
 
 ### 2.5. Xestión de historias
+
+  ```plantuml
+  !include ../diagramas/uml/clases/historia_produto.puml
+  ```
 
 - Crear:
 
@@ -255,6 +277,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.6. Xestión de Tempos
 
+  ```plantuml
+  !include ../diagramas/uml/clases/estimacion_tempo.puml
+  ```
+
 - Crear:
 
   ```js
@@ -286,6 +312,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.7. Xestión de Prioridades
 
+  ```plantuml
+  !include ../diagramas/uml/clases/prioridade.puml
+  ```
+
 - Crear:
 
   ```js
@@ -315,6 +345,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.8. Xestión de Tipos
 
+  ```plantuml
+  !include ../diagramas/uml/clases/tipo.puml
+  ```
+
 - Crear:
 
   ```js
@@ -343,6 +377,10 @@ Este traballo dividirase en tres partes:
   ```
 
 ### 2.9. Xestión de Actuacións
+
+  ```plantuml
+  !include ../diagramas/uml/clases/actuacion.puml
+  ```
 
 - Crear:
 
@@ -408,6 +446,10 @@ Este traballo dividirase en tres partes:
 
 ### 2.10. Xestión de cometarios
 
+  ```plantuml
+  !include ../diagramas/uml/clases/comentario.puml
+  ```
+
 - Crear:
 
   ```js
@@ -442,6 +484,10 @@ Este traballo dividirase en tres partes:
   ```
 
 ### 2.11. Xestión de repositorios
+
+  ```plantuml
+  !include ../diagramas/uml/clases/repo.puml
+  ```
 
 - Crear:
 
@@ -479,6 +525,10 @@ Este traballo dividirase en tres partes:
   ```
 
 ### 2.12. Xestión de históricos de estados
+
+  ```plantuml
+  !include ../diagramas/uml/clases/historico_estado.puml
+  ```
 
 En principio haberá un histórico por cada táboa que teña un estado.
 
@@ -583,6 +633,13 @@ Sería interesante facer un estudio dos proxectos de distintas industrias e valo
 [//]: # (Listado dos links empregados)
 
    <!-- Enlaces a terceiros -->
+   [plantuml-com]: <https://plantuml.com/es>
+
+   [plantuml-starting]: <https://plantuml.com/es/starting>
+
+   [plantuml-extension]: <https://marketplace.visualstudio.com/items?itemName=jebbs.puml>
+
+   [markdown-preview-enhanced]: <https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced>
 
    <!-- Índice de seccións -->
 
@@ -591,6 +648,8 @@ Sería interesante facer un estudio dos proxectos de distintas industrias e valo
    [analise]: <2_analise.md>
 
    [desenho]: <3_deseno.md>
+
+   [desenho-svg]: <3_deseno_svg.md>
 
    [codificacion_probas]: <4_codificacion_probas.md>
 

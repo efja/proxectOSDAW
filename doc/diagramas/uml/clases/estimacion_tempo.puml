@@ -1,0 +1,10 @@
+@startuml EstimacionTempo
+
+class EstimacionTempo {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

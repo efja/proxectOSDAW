@@ -1,0 +1,35 @@
+@startuml Usuario
+
+!include rol.puml
+
+!startsub PARCIAL
+    !includesub rol.puml!PARCIAL
+
+    class Usuario {
+        {field} nome: string
+        {field} apelido1: string
+        {field} apelido2: string
+        {field} salario: number
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    class Horario {
+        {field} horasSemanais: number
+        {field} traballaFindes: boolean
+        {field} horarioFlexible: boolean
+        {field} festivos: Date[]
+    }
+
+    class Contacto {
+        {field} tipo: string
+        {field} contacto: string
+    }
+
+    Usuario "1..*" -- Contacto
+    Usuario "1..*" -- Rol
+    Usuario "0..*" -- Horario
+!endsub
+
+@enduml

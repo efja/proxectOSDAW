@@ -1,0 +1,10 @@
+@startuml HistoricoEstado
+
+class HistoricoEstado {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

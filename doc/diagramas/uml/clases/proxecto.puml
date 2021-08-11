@@ -1,0 +1,10 @@
+@startuml Proxecto
+
+class Proxecto {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

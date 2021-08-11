@@ -1,14 +1,8 @@
 # Deseño
 
-> Os diagramas deste documento están escritos na linguaxe `plantuml`, para máis información de como renderizar estos gráficos podes acudir ó seu sitio web en [https://plantuml.com][plantuml-com], para consultar a súa [instalación][plantuml-starting].
+> Os diagramas deste documento están en formato `svg`.
 >
-> Para ver os diagramas integrados no documento empregar as seguitnes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos, nun diagrama máis completo, no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
-
-
-  ```plantuml
-  !include ../diagramas/uml/clases/main.puml
-  ```
-
+> Para ver os diagramas integrados no documento MD podes atopalos no apartado [3. deseño][desenho] desta documentación, os diagramas nese apartada están escrito na linguaxe `plantuml`.
 
 ## Modelo conceptual do dominio da aplicación
 

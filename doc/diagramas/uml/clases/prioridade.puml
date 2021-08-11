@@ -1,0 +1,10 @@
+@startuml Prioridade
+
+class Prioridade {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

@@ -43,7 +43,9 @@ Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia
 
 1. [Estudo preliminar][estudio_preliminar]
 2. [Análise: Requerimentos do sistema][analise]
-<!-- 3. [Deseño][desenho] -->
+3. [Deseño][desenho]
+
+   3.1. [Deseño en SVG][desenho-svg]
 4. [Codificación e Probas][codificacion_probas]
 <!-- 5. [Manuais][manuais] -->
 <!-- 6. [Estrateixia de versionado][estratexia_de_versionado] -->
@@ -106,6 +108,8 @@ Lista de autores:
    [analise]: <doc/templates/2_analise.md>
 
    [desenho]: <doc/templates/3_deseno.md>
+
+   [desenho-svg]: <doc/templates/3_deseno_svg.md>
 
    [codificacion_probas]: <doc/templates/4_codificacion_probas.md>
 

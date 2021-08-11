@@ -1,0 +1,10 @@
+@startuml HistoriaProduto
+
+class HistoriaProduto {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml Etapa
+
+class Etapa {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml

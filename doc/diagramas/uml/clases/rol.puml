@@ -1,0 +1,37 @@
+@startuml Rol
+
+!startsub PARCIAL
+    class Rol {
+        {field} nome: string
+        {field} descricion: string
+        {field} alcance: enum
+        {field} permisos: boolean[]
+!endsub
+
+        {method} create()
+        {method} update()
+        {method} delete()
+
+!startsub PARCIAL
+    }
+!endsub
+
+note right of Rol::alcance
+    emun:
+        SISTEMA,
+        PROXECTO,
+        ETAPA,
+        HISTORIA,
+        ACTUACION
+end note
+
+note right of Rol::permisos
+    [
+        read,
+        create,
+        update,
+        delete
+    ]
+end note
+
+@enduml

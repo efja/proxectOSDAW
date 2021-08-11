@@ -1,0 +1,10 @@
+@startuml Actuacion
+
+class Actuacion {
+    {field} nome: string
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+@enduml
