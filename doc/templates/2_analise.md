@@ -21,7 +21,12 @@ Este traballo dividirase en tres partes:
 ### 2.1. Xestión de usuarios
 
   ```plantuml
-  !includesub ../diagramas/uml/clases/usuario.puml!PARCIAL
+  !include ../diagramas/uml/clases/usuario_parcial.puml
+
+  show Usuario
+  show Horario
+  show Contacto
+  show Rol
   ```
 
 - Crear:
@@ -103,7 +108,7 @@ Este traballo dividirase en tres partes:
 ### 2.3. Xestión de proxectos
 
   ```plantuml
-  !include ../diagramas/uml/clases/proxecto.puml
+  !include ../diagramas/uml/clases/proxecto_parcial.puml
   ```
 
 - Crear:
@@ -287,6 +292,7 @@ Este traballo dividirase en tres partes:
     {
       nome,
       descricion,
+      escala,
       duracion?,
     }
   ```
@@ -298,6 +304,7 @@ Este traballo dividirase en tres partes:
       id,
       nome,
       descricion,
+      escala,
       duracion?,
     }
   ```
@@ -404,8 +411,6 @@ Este traballo dividirase en tres partes:
       validadores: [],
       roles: [],
       comentarios: [],
-      actuacions: [],
-      dependencias: [ historias ],
     }
   ```
 
@@ -431,8 +436,6 @@ Este traballo dividirase en tres partes:
       validadores: [],
       roles: [],
       comentarios: [],
-      actuacions: [],
-      dependencias: [ historias ],
     }
   ```
 
@@ -458,7 +461,7 @@ Este traballo dividirase en tres partes:
       data,
       data_expiracion,
       titulo,
-      descricion,
+      mensaxe,
       roles_acceso: [],
     }
   ```
@@ -470,7 +473,7 @@ Este traballo dividirase en tres partes:
       id,
       data_expiracion,
       titulo,
-      descricion,
+      mensaxe,
       roles_acceso: [],
     }
   ```

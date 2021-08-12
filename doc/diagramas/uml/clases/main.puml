@@ -1,5 +1,338 @@
 @startuml Usuario
 
-!include usuario.puml
+' ################################################################################
+' ## Actuacion
+' ################################################################################
+
+class Actuacion  #LightGreen ##Green {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
+    {field} nome: string
+    {field} descricion: string
+
+    {field} horas_estimadas: number
+    {field} horas_consumidas: number
+    {field} euros_estimados: number
+    {field} euros_consumidos: number
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+
+    {method} calcularCustesEstimados()
+    {method} calcularCustesConsumidos()
+}
+
+note right of Actuacion::euros_estimados
+    A modo de histórico os custes
+    económicos ademais deactivate
+    ser calculados farase persistencia
+    na BD a modo de histórico
+end note
+
+Actuacion -- Usuario #Blue : creador
+Actuacion -- Estado #DarkGreen
+Actuacion -- EstimacionTempo #GoldenRod
+Actuacion -- Prioridade #DeepPink
+Actuacion -- Tipo #RosyBrown
+Actuacion "1..*" -- Usuario #Blue
+Actuacion "0..*" -- Usuario  #Blue: Validadores <
+Actuacion "1..*" -- Rol #DarkBlue : Asignados <
+Actuacion "0..*" -- Comentario #Black
+Actuacion "0..*" -- Etapa #Green
+
+' ################################################################################
+' ## Comentario
+' ################################################################################
+
+class Comentario #LightGrey ##Black {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} data_expiracion?: Date
+
+    {field} titulo: string
+    {field} mensaxe: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+Comentario -- Usuario #Blue : Creador
+Comentario "1..*" -- Rol #DarkBlue : Visivilidade <
+
+' ################################################################################
+' ## Proxecto
+' ################################################################################
+
+class Proxecto #LightSteelBlue ##SteelBlue {
+    ' Propiedades
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+Proxecto -- Estado #DarkGreen
+Proxecto "0..*" -- Repo #OrangeRed
+Proxecto "1..*" -- Usuario #Blue
+Proxecto "0..*" -- Usuario #Blue : Validadores <
+Proxecto "1..*" -- Rol #DarkBlue : Asignados <
+Proxecto "0..*" -- Etapa #SteelBlue
+Proxecto "0..*" -- HistoriaProduto #DarkKhaki
+Proxecto "0..*" -- Comentario #Black
+
+' ################################################################################
+' ## EstimacionTempo
+' ################################################################################
+
+class EstimacionTempo #Gold ##GoldenRod{
+    ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+    {field} escala: enum
+    {field} duracion: number
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+note right of EstimacionTempo::escala
+    emun:
+        HORAS,
+        DIAS,
+        SEMANAS
+end note
+
+' ################################################################################
+' ## Etapa
+' ################################################################################
+
+class Etapa #LightCyan ##Cyan {
+    ' Propiedades
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+Etapa -- Estado #DarkGreen
+Etapa "1..*" -- Usuario #Blue
+Etapa "0..*" -- Usuario #Blue : Validadores <
+Etapa "1..*" -- Rol #DarkBlue : Asignados <
+Etapa "0..*" -- Comentario #Black
+
+' ################################################################################
+' ## Estado
+' ################################################################################
+
+class Estado #LimeGreen ##DarkGreen {
+    ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+class HistoricoEstado #GreenYellow ##DarkGreen {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} log: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+HistoricoEstado -- Usuario #Blue : Creador
+HistoricoEstado "1..*" -- Rol #DarkBlue : Visivilidade <
+HistoricoEstado -- Estado #DarkGreen : Previo
+HistoricoEstado -- Estado #DarkGreen : Novo
+
+' ################################################################################
+' ## HistoriaProduto
+' ################################################################################
+
+class HistoriaProduto #Khaki ##DarkKhaki {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+HistoriaProduto -- Usuario #Blue : creador
+HistoriaProduto -- Estado #DarkGreen
+HistoriaProduto -- EstimacionTempo #GoldenRod
+HistoriaProduto -- Prioridade #DeepPink
+HistoriaProduto -- Tipo #RosyBrown
+HistoriaProduto "0..*" -- Repo #OrangeRed
+HistoriaProduto "1..*" -- Usuario #Blue
+HistoriaProduto "0..*" -- Usuario #Blue : Validadores <
+HistoriaProduto "1..*" -- Rol #DarkBlue : Asignados <
+HistoriaProduto "0..*" -- Comentario #Black
+HistoriaProduto "0..*" -- Etapa
+HistoriaProduto "0..*" -- Actuacion #Green
+HistoriaProduto "0..*" -- HistoriaProduto #DarkKhaki : Dependencias
+
+' ################################################################################
+' ## Prioridade
+' ################################################################################
+
+class Prioridade #LightPink ##DeepPink {
+    ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+' ################################################################################
+' ## Repo
+' ################################################################################
+
+class Repo #GhostWhite ##OrangeRed {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} data_expiracion?: Date
+
+    {field} nome: string
+    {field} descricion: string
+    {field} uri: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+Repo -- Usuario #Blue : Creador
+Repo "1..*" -- Rol #DarkBlue : Visivilidade <
+
+' ################################################################################
+' ## Rol
+' ################################################################################
+
+class Rol #LightBlue ##DarkBlue {
+    ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+    {field} alcance: enum
+    {field} permisos: boolean[]
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+note right of Rol::alcance
+    emun:
+        SISTEMA,
+        PROXECTO,
+        ETAPA,
+        HISTORIA,
+        ACTUACION
+end note
+
+note right of Rol::permisos
+    [
+        read,
+        create,
+        update,
+        delete
+    ]
+end note
+
+' ################################################################################
+' ## Tipo
+' ################################################################################
+
+class Tipo #Wheat ##RosyBrown {
+    ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+' ################################################################################
+' ## Usuario
+' ################################################################################
+
+class Usuario #APPLICATION ##Blue {
+    ' Propiedades
+    {field} nome: string
+    {field} apelido1: string
+    {field} apelido2: string
+    {field} salario: number
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+class Horario #AliceBlue ##Blue {
+    ' Propiedades
+    {field} horasSemanais: number
+    {field} traballaFindes: boolean
+    {field} horarioFlexible: boolean
+    {field} festivos: Date[]
+}
+
+class Contacto #AliceBlue ##Blue {
+    ' Propiedades
+    {field} tipo: string
+    {field} contacto: string
+}
+
+Usuario "1..*" -- Contacto #Blue
+Usuario "1..*" -- Rol #DarkBlue
+Usuario "0..*" -- Horario #Blue
 
 @enduml

@@ -1,20 +1,8 @@
 @startuml Rol
 
-!startsub PARCIAL
-    class Rol {
-        {field} nome: string
-        {field} descricion: string
-        {field} alcance: enum
-        {field} permisos: boolean[]
-!endsub
+!include rol_parcial.puml
 
-        {method} create()
-        {method} update()
-        {method} delete()
-
-!startsub PARCIAL
-    }
-!endsub
+show Rol
 
 note right of Rol::alcance
     emun:

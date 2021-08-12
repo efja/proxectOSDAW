@@ -1,5 +1,8 @@
 @startuml Proxecto
 
+!include rol.puml
+!include usuario.puml
+
 class Proxecto {
     {field} nome: string
     {method} create()
