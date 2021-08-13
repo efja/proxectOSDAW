@@ -1,0 +1,16 @@
+@startuml Prioridade
+
+!startsub PARCIAL
+    class Prioridade #LightPink ##DeepPink {
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+!endsub
+
+@enduml

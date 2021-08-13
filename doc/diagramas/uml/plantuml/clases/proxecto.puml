@@ -1,0 +1,30 @@
+@startuml Proxecto
+
+!startsub PARCIAL
+    class Proxecto #LightSteelBlue ##SteelBlue {
+        ' Propiedades
+        {field} data_ini: Date
+        {field} data_fin: Date
+        {field} data_ini_prevista: Date
+        {field} data_fin_prevista: Date
+
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Proxecto -- Estado #DarkGreen
+    Proxecto "0..*" -- Repo #OrangeRed
+    Proxecto "1..*" -- Usuario #Blue
+    Proxecto "0..*" -- Usuario #Blue : Validadores <
+    Proxecto "1..*" -- Rol #DarkBlue : Asignados <
+    Proxecto "0..*" -- Etapa #SteelBlue
+    Proxecto "0..*" -- HistoriaProduto #DarkKhaki
+    Proxecto "0..*" -- Comentario #Black
+!endsub
+
+@enduml

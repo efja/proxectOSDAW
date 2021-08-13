@@ -1,0 +1,27 @@
+@startuml Etapa
+
+!startsub PARCIAL
+    class Etapa #LightCyan ##Cyan {
+        ' Propiedades
+        {field} data_ini: Date
+        {field} data_fin: Date
+        {field} data_ini_prevista: Date
+        {field} data_fin_prevista: Date
+
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Etapa -- Estado #DarkGreen
+    Etapa "1..*" -- Usuario #Blue
+    Etapa "0..*" -- Usuario #Blue : Validadores <
+    Etapa "1..*" -- Rol #DarkBlue : Asignados <
+    Etapa "0..*" -- Comentario #Black
+!endsub
+
+@enduml

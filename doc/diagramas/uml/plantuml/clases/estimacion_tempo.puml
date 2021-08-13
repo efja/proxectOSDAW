@@ -1,0 +1,27 @@
+@startuml EstimacionTempo
+
+!startsub PARCIAL
+    class EstimacionTempo #Gold ##GoldenRod{
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+        {field} escala: enum
+        {field} duracion: number
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+!endsub
+
+!startsub NOTAS
+    note right of EstimacionTempo::escala
+        emun:
+            HORAS,
+            DIAS,
+            SEMANAS
+    end note
+!endsub
+
+@enduml

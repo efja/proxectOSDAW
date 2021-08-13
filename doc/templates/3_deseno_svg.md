@@ -6,9 +6,7 @@
 
 ## Modelo conceptual do dominio da aplicación
 
-Pode ser un diagrama de clases usando UML, ConML, ou outra linguaxe semellante.
-
-// TODO:
+![clases-main]
 
 ## Casos de uso
 
@@ -73,3 +71,6 @@ Poderedes entregar a captura do phpMyAdmin se empregades MariaDB como Modelo rel
    [referencias]: <a1_referencias.md>
    [planificacion]: <a2_planificacion.md>
    [orzamento]: <a3_orzamento.md>
+
+   <!-- DIAGRAMAS -->
+   [clases-main]: <../diagramas/uml/svg/clases/00_main.svg>

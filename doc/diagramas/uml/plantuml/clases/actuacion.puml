@@ -1,0 +1,51 @@
+@startuml Actuacion
+
+!startsub PARCIAL
+    class Actuacion  #LightGreen ##Green {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_ini: Date
+        {field} data_fin: Date
+        {field} data_ini_prevista: Date
+        {field} data_fin_prevista: Date
+
+        {field} nome: string
+        {field} descricion: string
+
+        {field} horas_estimadas: number
+        {field} horas_consumidas: number
+        {field} euros_estimados: number
+        {field} euros_consumidos: number
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+
+        {method} calcularCustesEstimados()
+        {method} calcularCustesConsumidos()
+    }
+
+    Actuacion -- Usuario #Blue : creador
+    Actuacion -- Estado #DarkGreen
+    Actuacion -- EstimacionTempo #GoldenRod
+    Actuacion -- Prioridade #DeepPink
+    Actuacion -- Tipo #RosyBrown
+    Actuacion "1..*" -- Usuario #Blue
+    Actuacion "0..*" -- Usuario  #Blue: Validadores <
+    Actuacion "1..*" -- Rol #DarkBlue : Asignados <
+    Actuacion "0..*" -- Comentario #Black
+    Actuacion "0..*" -- Etapa #Green
+!endsub
+
+!startsub NOTAS
+    note right of Actuacion::euros_estimados
+        A modo de histórico os custes
+        económicos ademais deactivate
+        ser calculados farase persistencia
+        na BD a modo de histórico
+    end note
+!endsub
+
+
+@enduml

@@ -12,6 +12,8 @@ Este traballo dividirase en tres partes:
 2. Unha `API` que atacará a `BD` e devolverá a información permitida a través do estándar `http`
 3. Unha `UI` (Interface de Usuario) que fará as peticións á `API` e lle presentará os datos ó usuario final
 
+<div style="page-break-after: always;"></div>
+
 ## 2. Funcionalidades
 
 > Os diagramas están escritos na linguaxe `plantuml`, para máis información de como renderizar estos gráficos podes acudir ó seu sitio web en [https://plantuml.com][plantuml-com], para consultar a súa [instalación][plantuml-starting].
@@ -21,7 +23,7 @@ Este traballo dividirase en tres partes:
 ### 2.1. Xestión de usuarios
 
   ```plantuml
-  !include ../diagramas/uml/clases/usuario_parcial.puml
+  !include ../diagramas/uml/plantuml/clases/usuario.puml
 
   show Usuario
   show Horario
@@ -68,10 +70,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.2. Xestión de roles
 
   ```plantuml
-  !include ../diagramas/uml/clases/rol.puml
+  !include ../diagramas/uml/plantuml/clases/rol.puml
   ```
 
 - Crear:
@@ -105,10 +109,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.3. Xestión de proxectos
 
   ```plantuml
-  !include ../diagramas/uml/clases/proxecto_parcial.puml
+  !include ../diagramas/uml/plantuml/clases/proxecto.puml
   ```
 
 - Crear:
@@ -161,11 +167,13 @@ Este traballo dividirase en tres partes:
       id
     }
   ```
+
+<div style="page-break-after: always;"></div>
 
 ### 2.4. Xestión de etapas
 
   ```plantuml
-  !include ../diagramas/uml/clases/etapa.puml
+  !include ../diagramas/uml/plantuml/clases/etapa.puml
   ```
 
 - Crear:
@@ -213,10 +221,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.5. Xestión de historias
 
   ```plantuml
-  !include ../diagramas/uml/clases/historia_produto.puml
+  !include ../diagramas/uml/plantuml/clases/historia_produto.puml
   ```
 
 - Crear:
@@ -283,7 +293,7 @@ Este traballo dividirase en tres partes:
 ### 2.6. Xestión de Tempos
 
   ```plantuml
-  !include ../diagramas/uml/clases/estimacion_tempo.puml
+  !include ../diagramas/uml/plantuml/clases/estimacion_tempo.puml
   ```
 
 - Crear:
@@ -320,7 +330,7 @@ Este traballo dividirase en tres partes:
 ### 2.7. Xestión de Prioridades
 
   ```plantuml
-  !include ../diagramas/uml/clases/prioridade.puml
+  !include ../diagramas/uml/plantuml/clases/prioridade.puml
   ```
 
 - Crear:
@@ -349,11 +359,13 @@ Este traballo dividirase en tres partes:
       id
     }
   ```
+
+<div style="page-break-after: always;"></div>
 
 ### 2.8. Xestión de Tipos
 
   ```plantuml
-  !include ../diagramas/uml/clases/tipo.puml
+  !include ../diagramas/uml/plantuml/clases/tipo.puml
   ```
 
 - Crear:
@@ -383,10 +395,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.9. Xestión de Actuacións
 
   ```plantuml
-  !include ../diagramas/uml/clases/actuacion.puml
+  !include ../diagramas/uml/plantuml/clases/actuacion.puml
   ```
 
 - Crear:
@@ -450,7 +464,7 @@ Este traballo dividirase en tres partes:
 ### 2.10. Xestión de cometarios
 
   ```plantuml
-  !include ../diagramas/uml/clases/comentario.puml
+  !include ../diagramas/uml/plantuml/clases/comentario.puml
   ```
 
 - Crear:
@@ -486,10 +500,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.11. Xestión de repositorios
 
   ```plantuml
-  !include ../diagramas/uml/clases/repo.puml
+  !include ../diagramas/uml/plantuml/clases/repo.puml
   ```
 
 - Crear:
@@ -527,10 +543,12 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.12. Xestión de históricos de estados
 
   ```plantuml
-  !include ../diagramas/uml/clases/historico_estado.puml
+  !include ../diagramas/uml/plantuml/clases/estado.puml
   ```
 
 En principio haberá un histórico por cada táboa que teña un estado.
@@ -555,6 +573,8 @@ En principio haberá un histórico por cada táboa que teña un estado.
       log,
     }
   ```
+
+<div style="page-break-after: always;"></div>
 
 ## 3. Requerimentos non funcionais
 

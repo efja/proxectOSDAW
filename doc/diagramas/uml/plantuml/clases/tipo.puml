@@ -1,0 +1,16 @@
+@startuml Tipo
+
+!startsub PARCIAL
+    class Tipo #Wheat ##RosyBrown {
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+!endsub
+
+@enduml

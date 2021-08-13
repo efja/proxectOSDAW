@@ -1,0 +1,32 @@
+@startuml HistoricoEstado
+
+!startsub PARCIAL
+    class Estado #LimeGreen ##DarkGreen {
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    class HistoricoEstado #GreenYellow ##DarkGreen {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} log: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    HistoricoEstado -- Usuario #Blue : Creador
+    HistoricoEstado "1..*" -- Rol #DarkBlue : Visivilidade <
+    HistoricoEstado - Estado #DarkGreen : Previo
+    HistoricoEstado - Estado #DarkGreen : Novo
+!endsub
+
+@enduml

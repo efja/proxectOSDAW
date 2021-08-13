@@ -1,0 +1,22 @@
+@startuml Comentario
+
+!startsub PARCIAL
+    class Comentario #LightGrey ##Black {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_expiracion?: Date
+
+        {field} titulo: string
+        {field} mensaxe: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Comentario -- Usuario #Blue : Creador
+    Comentario "1..*" -- Rol #DarkBlue : Visivilidade <
+!endsub
+
+@enduml

@@ -1,0 +1,38 @@
+@startuml Rol
+
+!startsub PARCIAL
+    class Rol #LightBlue ##DarkBlue {
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+        {field} alcance: enum
+        {field} permisos: boolean[]
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+!endsub
+
+!startsub NOTAS
+    note right of Rol::alcance
+        emun:
+            SISTEMA,
+            PROXECTO,
+            ETAPA,
+            HISTORIA,
+            ACTUACION
+    end note
+
+    note right of Rol::permisos
+        [
+            read,
+            create,
+            update,
+            delete
+        ]
+    end note
+!endsub
+
+@enduml

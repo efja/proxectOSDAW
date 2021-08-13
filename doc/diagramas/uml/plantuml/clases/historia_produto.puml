@@ -1,0 +1,36 @@
+@startuml HistoriaProduto
+
+!startsub PARCIAL
+    class HistoriaProduto #Khaki ##DarkKhaki {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_ini: Date
+        {field} data_fin: Date
+        {field} data_ini_prevista: Date
+        {field} data_fin_prevista: Date
+
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    HistoriaProduto -- Usuario #Blue : creador
+    HistoriaProduto -- Estado #DarkGreen
+    HistoriaProduto -- EstimacionTempo #GoldenRod
+    HistoriaProduto -- Prioridade #DeepPink
+    HistoriaProduto -- Tipo #RosyBrown
+    HistoriaProduto "0..*" -- Repo #OrangeRed
+    HistoriaProduto "1..*" -- Usuario #Blue
+    HistoriaProduto "0..*" -- Usuario #Blue : Validadores <
+    HistoriaProduto "1..*" -- Rol #DarkBlue : Asignados <
+    HistoriaProduto "0..*" -- Comentario #Black
+    HistoriaProduto "0..*" -- Etapa
+    HistoriaProduto "0..*" -- Actuacion #Green
+    HistoriaProduto "0..*" -- HistoriaProduto #DarkKhaki : Dependencias
+!endsub
+
+@enduml

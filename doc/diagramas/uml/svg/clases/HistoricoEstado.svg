@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="258px" preserveAspectRatio="none" style="width:363px;height:258px;background:#FFFFFF;" version="1.1" viewBox="0 0 363 258" width="363px" zoomAndPan="magnify"><defs><filter height="300%" id="f19h6zddnsm06t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d8933eb2ae217ae3c21bf6e2973c277f]
+class Estado--><rect codeLine="3" fill="#32CD32" filter="url(#f19h6zddnsm06t)" height="112.0234" id="Estado" style="stroke:#006400;stroke-width:1.5;" width="111" x="238.5" y="7"/><ellipse cx="269.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#006400;stroke-width:1.0;"/><path d="M272.2188,28.6406 Q271.6406,28.9375 271,29.0781 Q270.3594,29.2344 269.6563,29.2344 Q267.1563,29.2344 265.8281,27.5938 Q264.5156,25.9375 264.5156,22.8125 Q264.5156,19.6875 265.8281,18.0313 Q267.1563,16.375 269.6563,16.375 Q270.3594,16.375 271,16.5313 Q271.6563,16.6875 272.2188,16.9844 L272.2188,19.7031 Q271.5938,19.125 271,18.8594 Q270.4063,18.5781 269.7813,18.5781 Q268.4375,18.5781 267.75,19.6563 Q267.0625,20.7188 267.0625,22.8125 Q267.0625,24.9063 267.75,25.9844 Q268.4375,27.0469 269.7813,27.0469 Q270.4063,27.0469 271,26.7813 Q271.5938,26.5 272.2188,25.9219 L272.2188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="286.75" y="27.1543">Estado</text><line style="stroke:#006400;stroke-width:1.5;" x1="239.5" x2="348.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="244.5" y="53.2104">nome: string</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="244.5" y="66.0151">descricion: string</text><line style="stroke:#006400;stroke-width:1.5;" x1="239.5" x2="348.5" y1="72.6094" y2="72.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="244.5" y="86.8198">create()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="244.5" y="99.6245">update()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="244.5" y="112.4292">delete()</text><!--MD5=[acb7a1986450d36db1ac649d72e3ecdf]
+class HistoricoEstado--><rect codeLine="14" fill="#ADFF2F" filter="url(#f19h6zddnsm06t)" height="112.0234" id="HistoricoEstado" style="stroke:#006400;stroke-width:1.5;" width="131" x="31.5" y="7"/><ellipse cx="46.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#006400;stroke-width:1.0;"/><path d="M49.4688,28.6406 Q48.8906,28.9375 48.25,29.0781 Q47.6094,29.2344 46.9063,29.2344 Q44.4063,29.2344 43.0781,27.5938 Q41.7656,25.9375 41.7656,22.8125 Q41.7656,19.6875 43.0781,18.0313 Q44.4063,16.375 46.9063,16.375 Q47.6094,16.375 48.25,16.5313 Q48.9063,16.6875 49.4688,16.9844 L49.4688,19.7031 Q48.8438,19.125 48.25,18.8594 Q47.6563,18.5781 47.0313,18.5781 Q45.6875,18.5781 45,19.6563 Q44.3125,20.7188 44.3125,22.8125 Q44.3125,24.9063 45,25.9844 Q45.6875,27.0469 47.0313,27.0469 Q47.6563,27.0469 48.25,26.7813 Q48.8438,26.5 49.4688,25.9219 L49.4688,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="99" x="60.5" y="27.1543">HistoricoEstado</text><line style="stroke:#006400;stroke-width:1.5;" x1="32.5" x2="161.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="37.5" y="53.2104">data_creacion: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="37.5" y="66.0151">log: string</text><line style="stroke:#006400;stroke-width:1.5;" x1="32.5" x2="161.5" y1="72.6094" y2="72.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="37.5" y="86.8198">create()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="37.5" y="99.6245">update()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="37.5" y="112.4292">delete()</text><!--MD5=[35a64b983c79880384a2fd9b61f0c24b]
+class Usuario--><rect fill="#FEFECE" filter="url(#f19h6zddnsm06t)" height="48" id="Usuario" style="stroke:#A80036;stroke-width:1.5;" width="80" x="7" y="196"/><ellipse cx="22" cy="212" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.9688,217.6406 Q24.3906,217.9375 23.75,218.0781 Q23.1094,218.2344 22.4063,218.2344 Q19.9063,218.2344 18.5781,216.5938 Q17.2656,214.9375 17.2656,211.8125 Q17.2656,208.6875 18.5781,207.0313 Q19.9063,205.375 22.4063,205.375 Q23.1094,205.375 23.75,205.5313 Q24.4063,205.6875 24.9688,205.9844 L24.9688,208.7031 Q24.3438,208.125 23.75,207.8594 Q23.1563,207.5781 22.5313,207.5781 Q21.1875,207.5781 20.5,208.6563 Q19.8125,209.7188 19.8125,211.8125 Q19.8125,213.9063 20.5,214.9844 Q21.1875,216.0469 22.5313,216.0469 Q23.1563,216.0469 23.75,215.7813 Q24.3438,215.5 24.9688,214.9219 L24.9688,217.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="36" y="216.1543">Usuario</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="86" y1="228" y2="228"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="86" y1="236" y2="236"/><!--MD5=[54736e807c59b9b647b6e830d606a429]
+class Rol--><rect fill="#FEFECE" filter="url(#f19h6zddnsm06t)" height="48" id="Rol" style="stroke:#A80036;stroke-width:1.5;" width="51" x="122.5" y="196"/><ellipse cx="137.5" cy="212" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M140.4688,217.6406 Q139.8906,217.9375 139.25,218.0781 Q138.6094,218.2344 137.9063,218.2344 Q135.4063,218.2344 134.0781,216.5938 Q132.7656,214.9375 132.7656,211.8125 Q132.7656,208.6875 134.0781,207.0313 Q135.4063,205.375 137.9063,205.375 Q138.6094,205.375 139.25,205.5313 Q139.9063,205.6875 140.4688,205.9844 L140.4688,208.7031 Q139.8438,208.125 139.25,207.8594 Q138.6563,207.5781 138.0313,207.5781 Q136.6875,207.5781 136,208.6563 Q135.3125,209.7188 135.3125,211.8125 Q135.3125,213.9063 136,214.9844 Q136.6875,216.0469 138.0313,216.0469 Q138.6563,216.0469 139.25,215.7813 Q139.8438,215.5 140.4688,214.9219 L140.4688,217.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="19" x="151.5" y="216.1543">Rol</text><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="172.5" y1="228" y2="228"/><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="172.5" y1="236" y2="236"/><!--MD5=[89ff2d7833ae5b6f26276e8762e7ba86]
+link HistoricoEstado to Usuario--><path codeLine="25" d="M63.55,119.31 C58.96,128.93 54.85,139.05 52,149 C47.64,164.23 46.42,182.04 46.27,195.89 " fill="none" id="HistoricoEstado-Usuario" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="53" y="162.0669">Creador</text><!--MD5=[7e64c36505c2d3ffeaeaa83cef0a0595]
+link HistoricoEstado to Rol--><path codeLine="26" d="M115.12,119.08 C123.77,145.36 133.66,175.4 140.31,195.62 " fill="none" id="HistoricoEstado-Rol" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#000000" points="133.4369,152.817,133.4729,162.3275,139.0562,160.49,133.4369,152.817" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="144" y="162.0669">Visivilidade</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="92.9268" y="138.9024">1..*</text><!--MD5=[ffa4a5f196ee22798f198f55c929e0a3]
+link HistoricoEstado to Estado--><path codeLine="27" d="M162.6,63 C187.11,63 214.69,63 238.24,63 " fill="none" id="HistoricoEstado-Estado" style="stroke:#006400;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="181" y="56.0669">Previo</text><!--MD5=[ffa4a5f196ee22798f198f55c929e0a3]
+link HistoricoEstado to Estado--><path codeLine="28" d="M162.81,80.96 C180.68,83.9 200.05,85.32 218,83 C224.63,82.14 231.51,80.88 238.29,79.4 " fill="none" id="HistoricoEstado-Estado-1" style="stroke:#006400;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="184" y="79.0669">Novo</text><!--MD5=[682515603f97afada1b1b370c2b385cd]
+@startuml HistoricoEstado
+
+!startsub PARCIAL
+    class Estado #LimeGreen ##DarkGreen {
+        ' Propiedades
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    class HistoricoEstado #GreenYellow ##DarkGreen {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} log: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    HistoricoEstado - - Usuario #Blue : Creador
+    HistoricoEstado "1..*" - - Rol #DarkBlue : Visivilidade <
+    HistoricoEstado - Estado #DarkGreen : Previo
+    HistoricoEstado - Estado #DarkGreen : Novo
+!endsub
+
+@enduml
+
+@startuml HistoricoEstado
+
+    class Estado #LimeGreen ##DarkGreen {
+        {field} nome: string
+        {field} descricion: string
+
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    class HistoricoEstado #GreenYellow ##DarkGreen {
+        {field} data_creacion: Date
+        {field} log: string
+
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    HistoricoEstado - - Usuario #Blue : Creador
+    HistoricoEstado "1..*" - - Rol #DarkBlue : Visivilidade <
+    HistoricoEstado - Estado #DarkGreen : Previo
+    HistoricoEstado - Estado #DarkGreen : Novo
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: gl
+Country: ES
+--></g></svg>

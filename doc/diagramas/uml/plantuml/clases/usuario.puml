@@ -1,37 +1,36 @@
 @startuml Usuario
 
-!include rol_parcial.puml
-
 !startsub PARCIAL
-    class Usuario {
+    class Usuario #APPLICATION ##Blue {
+        ' Propiedades
         {field} nome: string
         {field} apelido1: string
         {field} apelido2: string
         {field} salario: number
+
+        ' Métodos
         {method} create()
         {method} update()
         {method} delete()
     }
 
-    class Horario {
+    class Horario #AliceBlue ##Blue {
+        ' Propiedades
         {field} horasSemanais: number
         {field} traballaFindes: boolean
         {field} horarioFlexible: boolean
         {field} festivos: Date[]
     }
 
-    class Horario {
+    class Contacto #AliceBlue ##Blue {
+        ' Propiedades
         {field} tipo: string
         {field} contacto: string
     }
 
-    hide Usuario
-    hide Horario
-    hide Contacto
-
-    Usuario "1..*" -- Contacto
-    Usuario "1..*" -- Rol
-    Usuario "0..*" -- Horario
+    Usuario "1..*" - Rol #DarkBlue
+    Usuario "1..*" -- Contacto #Blue
+    Usuario "0..*" -- Horario #Blue
 !endsub
 
 @enduml

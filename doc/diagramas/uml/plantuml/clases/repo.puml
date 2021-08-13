@@ -1,0 +1,23 @@
+@startuml Repo
+
+!startsub PARCIAL
+    class Repo #GhostWhite ##OrangeRed {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_expiracion?: Date
+
+        {field} nome: string
+        {field} descricion: string
+        {field} uri: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Repo -- Usuario #Blue : Creador
+    Repo "1..*" -- Rol #DarkBlue : Visivilidade <
+!endsub
+
+@enduml

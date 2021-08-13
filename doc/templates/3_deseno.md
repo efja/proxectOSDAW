@@ -4,17 +4,13 @@
 >
 > Para ver os diagramas integrados no documento empregar as seguitnes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos, nun diagrama máis completo, no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
 
-
-  ```plantuml
-  !include ../diagramas/uml/clases/main.puml
-  ```
-
-
 ## Modelo conceptual do dominio da aplicación
 
-Pode ser un diagrama de clases usando UML, ConML, ou outra linguaxe semellante.
+  ```plantuml {r my-chunk, R.options = list(width = 50)}
+  scale 800 height
 
-// TODO:
+  !include ../diagramas/uml/plantuml/clases/00_main.puml
+  ```
 
 ## Casos de uso
 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="296px" preserveAspectRatio="none" style="width:223px;height:296px;background:#FFFFFF;" version="1.1" viewBox="0 0 223 296" width="223px" zoomAndPan="magnify"><defs><filter height="300%" id="fvtbcf6u0l97v" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[92bd6e401080a2853674e2906bfd22c8]
+class Comentario--><rect codeLine="3" fill="#D3D3D3" filter="url(#fvtbcf6u0l97v)" height="150.4375" id="Comentario" style="stroke:#000000;stroke-width:1.5;" width="141" x="26.5" y="7"/><ellipse cx="58.15" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><path d="M61.1188,28.6406 Q60.5406,28.9375 59.9,29.0781 Q59.2594,29.2344 58.5563,29.2344 Q56.0563,29.2344 54.7281,27.5938 Q53.4156,25.9375 53.4156,22.8125 Q53.4156,19.6875 54.7281,18.0313 Q56.0563,16.375 58.5563,16.375 Q59.2594,16.375 59.9,16.5313 Q60.5563,16.6875 61.1188,16.9844 L61.1188,19.7031 Q60.4938,19.125 59.9,18.8594 Q59.3063,18.5781 58.6813,18.5781 Q57.3375,18.5781 56.65,19.6563 Q55.9625,20.7188 55.9625,22.8125 Q55.9625,24.9063 56.65,25.9844 Q57.3375,27.0469 58.6813,27.0469 Q59.3063,27.0469 59.9,26.7813 Q60.4938,26.5 61.1188,25.9219 L61.1188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="75.85" y="27.1543">Comentario</text><line style="stroke:#000000;stroke-width:1.5;" x1="27.5" x2="166.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="32.5" y="53.2104">data_creacion: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="32.5" y="66.0151">data_expiracion?: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="36.5" y="78.8198"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="32.5" y="91.6245">titulo: string</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="32.5" y="104.4292">mensaxe: string</text><line style="stroke:#000000;stroke-width:1.5;" x1="27.5" x2="166.5" y1="111.0234" y2="111.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="32.5" y="125.2339">create()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="32.5" y="138.0386">update()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="32.5" y="150.8433">delete()</text><!--MD5=[35a64b983c79880384a2fd9b61f0c24b]
+class Usuario--><rect fill="#FEFECE" filter="url(#fvtbcf6u0l97v)" height="48" id="Usuario" style="stroke:#A80036;stroke-width:1.5;" width="80" x="7" y="234"/><ellipse cx="22" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.9688,255.6406 Q24.3906,255.9375 23.75,256.0781 Q23.1094,256.2344 22.4063,256.2344 Q19.9063,256.2344 18.5781,254.5938 Q17.2656,252.9375 17.2656,249.8125 Q17.2656,246.6875 18.5781,245.0313 Q19.9063,243.375 22.4063,243.375 Q23.1094,243.375 23.75,243.5313 Q24.4063,243.6875 24.9688,243.9844 L24.9688,246.7031 Q24.3438,246.125 23.75,245.8594 Q23.1563,245.5781 22.5313,245.5781 Q21.1875,245.5781 20.5,246.6563 Q19.8125,247.7188 19.8125,249.8125 Q19.8125,251.9063 20.5,252.9844 Q21.1875,254.0469 22.5313,254.0469 Q23.1563,254.0469 23.75,253.7813 Q24.3438,253.5 24.9688,252.9219 L24.9688,255.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="36" y="254.1543">Usuario</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="86" y1="266" y2="266"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="86" y1="274" y2="274"/><!--MD5=[54736e807c59b9b647b6e830d606a429]
+class Rol--><rect fill="#FEFECE" filter="url(#fvtbcf6u0l97v)" height="48" id="Rol" style="stroke:#A80036;stroke-width:1.5;" width="51" x="122.5" y="234"/><ellipse cx="137.5" cy="250" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M140.4688,255.6406 Q139.8906,255.9375 139.25,256.0781 Q138.6094,256.2344 137.9063,256.2344 Q135.4063,256.2344 134.0781,254.5938 Q132.7656,252.9375 132.7656,249.8125 Q132.7656,246.6875 134.0781,245.0313 Q135.4063,243.375 137.9063,243.375 Q138.6094,243.375 139.25,243.5313 Q139.9063,243.6875 140.4688,243.9844 L140.4688,246.7031 Q139.8438,246.125 139.25,245.8594 Q138.6563,245.5781 138.0313,245.5781 Q136.6875,245.5781 136,246.6563 Q135.3125,247.7188 135.3125,249.8125 Q135.3125,251.9063 136,252.9844 Q136.6875,254.0469 138.0313,254.0469 Q138.6563,254.0469 139.25,253.7813 Q139.8438,253.5 140.4688,252.9219 L140.4688,255.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="19" x="151.5" y="254.1543">Rol</text><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="172.5" y1="266" y2="266"/><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="172.5" y1="274" y2="274"/><!--MD5=[e039922bbe74eaac9fa8ea5bae666447]
+link Comentario to Usuario--><path codeLine="17" d="M61.34,157.23 C57.67,167.07 54.41,177.16 52,187 C48.27,202.27 47.03,219.92 46.71,233.68 " fill="none" id="Comentario-Usuario" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="53" y="200.0669">Creador</text><!--MD5=[792b7455e612a262148c791dddcec629]
+link Comentario to Rol--><path codeLine="18" d="M118.7,157.04 C126.78,184.61 135.38,213.95 141.16,233.66 " fill="none" id="Comentario-Rol" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#000000" points="134.5935,190.7683,134.3176,200.2749,139.9581,198.6214,134.5935,190.7683" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="145" y="200.0669">Visivilidade</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="96.7519" y="177.6031">1..*</text><!--MD5=[9733c360e1a5e455d96ee61d3a3f9504]
+@startuml Comentario
+
+!startsub PARCIAL
+    class Comentario #LightGrey ##Black {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_expiracion?: Date
+
+        {field} titulo: string
+        {field} mensaxe: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Comentario - - Usuario #Blue : Creador
+    Comentario "1..*" - - Rol #DarkBlue : Visivilidade <
+!endsub
+
+@enduml
+
+@startuml Comentario
+
+    class Comentario #LightGrey ##Black {
+        {field} data_creacion: Date
+        {field} data_expiracion?: Date
+
+        {field} titulo: string
+        {field} mensaxe: string
+
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Comentario - - Usuario #Blue : Creador
+    Comentario "1..*" - - Rol #DarkBlue : Visivilidade <
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: gl
+Country: ES
+--></g></svg>
