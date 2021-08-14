@@ -17,11 +17,12 @@
         {method} delete()
     }
 
-    Etapa -- Estado #DarkGreen
-    Etapa "1..*" -- Usuario #Blue
-    Etapa "0..*" -- Usuario #Blue : Validadores <
-    Etapa "1..*" -- Rol #DarkBlue : Asignados <
-    Etapa "0..*" -- Comentario #Black
+    Etapa - Estado #DarkGreen
+
+    Etapa "1..*" o-- "participan" Usuario #Blue
+    Etapa "0..*" o-- Usuario #Blue : Validadores <
+    Etapa "1..*" o-- Rol #DarkBlue : Asignados <
+    Etapa "0..*" o-- Comentario #Black
 !endsub
 
 @enduml

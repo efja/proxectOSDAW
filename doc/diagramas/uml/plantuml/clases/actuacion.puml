@@ -26,25 +26,30 @@
         {method} calcularCustesConsumidos()
     }
 
-    Actuacion -- Usuario #Blue : creador
-    Actuacion -- Estado #DarkGreen
-    Actuacion -- EstimacionTempo #GoldenRod
-    Actuacion -- Prioridade #DeepPink
-    Actuacion -- Tipo #RosyBrown
-    Actuacion "1..*" -- Usuario #Blue
-    Actuacion "0..*" -- Usuario  #Blue: Validadores <
-    Actuacion "1..*" -- Rol #DarkBlue : Asignados <
-    Actuacion "0..*" -- Comentario #Black
-    Actuacion "0..*" -- Etapa #Green
+    Etapa "0..*" --o Actuacion #Green
+    Estado -- Actuacion #DarkGreen
+    EstimacionTempo -- Actuacion #GoldenRod
+    Prioridade -- Actuacion #DeepPink
+    Tipo -- Actuacion #RosyBrown
+
+    Actuacion -- "creador" Usuario #Blue
+    Actuacion "1..*" o--- "participan" Usuario #Blue
+    Actuacion "0..*" o--- Usuario  #Blue: Validadores <
+    Actuacion "1..*" o--- Rol #DarkBlue : Asignados <
+    Actuacion "0..*" o--- Comentario #Black
 !endsub
 
 !startsub NOTAS
-    note right of Actuacion::euros_estimados
+    note as N1
         A modo de histórico os custes
-        económicos ademais deactivate
-        ser calculados farase persistencia
-        na BD a modo de histórico
+        económicos ademais de ser calculados
+        farase persistencia na BD para conservar
+        esa información despois de posibles cambios
+        futuros en saliros
     end note
+
+    Actuacion::euros_estimados -right- N1
+    Actuacion::euros_consumidos -right- N1
 !endsub
 
 

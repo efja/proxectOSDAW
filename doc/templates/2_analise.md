@@ -11,9 +11,6 @@ Este traballo dividirase en tres partes:
 1. A `BD` (Base de Datos) onde se almacenará a información
 2. Unha `API` que atacará a `BD` e devolverá a información permitida a través do estándar `http`
 3. Unha `UI` (Interface de Usuario) que fará as peticións á `API` e lle presentará os datos ó usuario final
-
-<div style="page-break-after: always;"></div>
-
 ## 2. Funcionalidades
 
 > Os diagramas están escritos na linguaxe `plantuml`, para máis información de como renderizar estos gráficos podes acudir ó seu sitio web en [https://plantuml.com][plantuml-com], para consultar a súa [instalación][plantuml-starting].
@@ -24,11 +21,6 @@ Este traballo dividirase en tres partes:
 
   ```plantuml
   !include ../diagramas/uml/plantuml/clases/usuario.puml
-
-  show Usuario
-  show Horario
-  show Contacto
-  show Rol
   ```
 
 - Crear:
@@ -45,6 +37,8 @@ Este traballo dividirase en tres partes:
       horario,
     }
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Modificar:
 
@@ -69,8 +63,6 @@ Este traballo dividirase en tres partes:
       id
     }
   ```
-
-<div style="page-break-after: always;"></div>
 
 ### 2.2. Xestión de roles
 
@@ -226,6 +218,8 @@ Este traballo dividirase en tres partes:
 ### 2.5. Xestión de historias
 
   ```plantuml
+  scale 1000 width
+
   !include ../diagramas/uml/plantuml/clases/historia_produto.puml
   ```
 
@@ -281,6 +275,8 @@ Este traballo dividirase en tres partes:
       dependencias: [ historias ],
     }
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Eliminar:
 
@@ -360,8 +356,6 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-<div style="page-break-after: always;"></div>
-
 ### 2.8. Xestión de Tipos
 
   ```plantuml
@@ -395,13 +389,13 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-<div style="page-break-after: always;"></div>
-
 ### 2.9. Xestión de Actuacións
 
   ```plantuml
   !include ../diagramas/uml/plantuml/clases/actuacion.puml
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Crear:
 
@@ -461,6 +455,8 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.10. Xestión de cometarios
 
   ```plantuml
@@ -500,13 +496,13 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-<div style="page-break-after: always;"></div>
-
 ### 2.11. Xestión de repositorios
 
   ```plantuml
   !include ../diagramas/uml/plantuml/clases/repo.puml
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Crear:
 
@@ -543,8 +539,6 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-<div style="page-break-after: always;"></div>
-
 ### 2.12. Xestión de históricos de estados
 
   ```plantuml
@@ -574,7 +568,15 @@ En principio haberá un histórico por cada táboa que teña un estado.
     }
   ```
 
-<div style="page-break-after: always;"></div>
+  <div style="page-break-after: always;"></div>
+
+- Eliminar:
+
+  ```js
+    {
+      id
+    }
+  ```
 
 ## 3. Requerimentos non funcionais
 

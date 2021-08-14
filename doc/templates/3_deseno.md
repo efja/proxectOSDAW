@@ -7,7 +7,7 @@
 ## Modelo conceptual do dominio da aplicación
 
   ```plantuml {r my-chunk, R.options = list(width = 50)}
-  scale 800 height
+  scale 1000 width
 
   !include ../diagramas/uml/plantuml/clases/00_main.puml
   ```

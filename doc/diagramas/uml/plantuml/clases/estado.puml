@@ -24,7 +24,7 @@
     }
 
     HistoricoEstado -- Usuario #Blue : Creador
-    HistoricoEstado "1..*" -- Rol #DarkBlue : Visivilidade <
+    HistoricoEstado "1..*" o-- Rol #DarkBlue : Visivilidade <
     HistoricoEstado - Estado #DarkGreen : Previo
     HistoricoEstado - Estado #DarkGreen : Novo
 !endsub

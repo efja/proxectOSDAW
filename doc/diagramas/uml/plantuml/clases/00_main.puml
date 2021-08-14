@@ -29,24 +29,6 @@ class Actuacion  #LightGreen ##Green {
     {method} calcularCustesConsumidos()
 }
 
-note right of Actuacion::euros_estimados
-    A modo de histórico os custes
-    económicos ademais deactivate
-    ser calculados farase persistencia
-    na BD a modo de histórico
-end note
-
-Actuacion -- Usuario #Blue : creador
-Actuacion -- Estado #DarkGreen
-Actuacion -- EstimacionTempo #GoldenRod
-Actuacion -- Prioridade #DeepPink
-Actuacion -- Tipo #RosyBrown
-Actuacion "1..*" -- Usuario #Blue
-Actuacion "0..*" -- Usuario  #Blue: Validadores <
-Actuacion "1..*" -- Rol #DarkBlue : Asignados <
-Actuacion "0..*" -- Comentario #Black
-Actuacion "0..*" -- Etapa #Green
-
 ' ################################################################################
 ' ## Comentario
 ' ################################################################################
@@ -65,38 +47,6 @@ class Comentario #LightGrey ##Black {
     {method} delete()
 }
 
-Comentario -- Usuario #Blue : Creador
-Comentario "1..*" -- Rol #DarkBlue : Visivilidade <
-
-' ################################################################################
-' ## Proxecto
-' ################################################################################
-
-class Proxecto #LightSteelBlue ##SteelBlue {
-    ' Propiedades
-    {field} data_ini: Date
-    {field} data_fin: Date
-    {field} data_ini_prevista: Date
-    {field} data_fin_prevista: Date
-
-    {field} nome: string
-    {field} descricion: string
-
-    ' Métodos
-    {method} create()
-    {method} update()
-    {method} delete()
-}
-
-Proxecto -- Estado #DarkGreen
-Proxecto "0..*" -- Repo #OrangeRed
-Proxecto "1..*" -- Usuario #Blue
-Proxecto "0..*" -- Usuario #Blue : Validadores <
-Proxecto "1..*" -- Rol #DarkBlue : Asignados <
-Proxecto "0..*" -- Etapa #SteelBlue
-Proxecto "0..*" -- HistoriaProduto #DarkKhaki
-Proxecto "0..*" -- Comentario #Black
-
 ' ################################################################################
 ' ## EstimacionTempo
 ' ################################################################################
@@ -113,13 +63,6 @@ class EstimacionTempo #Gold ##GoldenRod{
     {method} update()
     {method} delete()
 }
-
-note right of EstimacionTempo::escala
-    emun:
-        HORAS,
-        DIAS,
-        SEMANAS
-end note
 
 ' ################################################################################
 ' ## Etapa
@@ -140,12 +83,6 @@ class Etapa #LightCyan ##Cyan {
     {method} update()
     {method} delete()
 }
-
-Etapa -- Estado #DarkGreen
-Etapa "1..*" -- Usuario #Blue
-Etapa "0..*" -- Usuario #Blue : Validadores <
-Etapa "1..*" -- Rol #DarkBlue : Asignados <
-Etapa "0..*" -- Comentario #Black
 
 ' ################################################################################
 ' ## Estado
@@ -173,11 +110,6 @@ class HistoricoEstado #GreenYellow ##DarkGreen {
     {method} delete()
 }
 
-HistoricoEstado -- Usuario #Blue : Creador
-HistoricoEstado "1..*" -- Rol #DarkBlue : Visivilidade <
-HistoricoEstado -- Estado #DarkGreen : Previo
-HistoricoEstado -- Estado #DarkGreen : Novo
-
 ' ################################################################################
 ' ## HistoriaProduto
 ' ################################################################################
@@ -199,26 +131,32 @@ class HistoriaProduto #Khaki ##DarkKhaki {
     {method} delete()
 }
 
-HistoriaProduto -- Usuario #Blue : creador
-HistoriaProduto -- Estado #DarkGreen
-HistoriaProduto -- EstimacionTempo #GoldenRod
-HistoriaProduto -- Prioridade #DeepPink
-HistoriaProduto -- Tipo #RosyBrown
-HistoriaProduto "0..*" -- Repo #OrangeRed
-HistoriaProduto "1..*" -- Usuario #Blue
-HistoriaProduto "0..*" -- Usuario #Blue : Validadores <
-HistoriaProduto "1..*" -- Rol #DarkBlue : Asignados <
-HistoriaProduto "0..*" -- Comentario #Black
-HistoriaProduto "0..*" -- Etapa
-HistoriaProduto "0..*" -- Actuacion #Green
-HistoriaProduto "0..*" -- HistoriaProduto #DarkKhaki : Dependencias
-
 ' ################################################################################
 ' ## Prioridade
 ' ################################################################################
 
 class Prioridade #LightPink ##DeepPink {
     ' Propiedades
+    {field} nome: string
+    {field} descricion: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+' ################################################################################
+' ## Proxecto
+' ################################################################################
+
+class Proxecto #LightSteelBlue ##SteelBlue {
+    ' Propiedades
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
     {field} nome: string
     {field} descricion: string
 
@@ -247,9 +185,6 @@ class Repo #GhostWhite ##OrangeRed {
     {method} delete()
 }
 
-Repo -- Usuario #Blue : Creador
-Repo "1..*" -- Rol #DarkBlue : Visivilidade <
-
 ' ################################################################################
 ' ## Rol
 ' ################################################################################
@@ -266,24 +201,6 @@ class Rol #LightBlue ##DarkBlue {
     {method} update()
     {method} delete()
 }
-
-note right of Rol::alcance
-    emun:
-        SISTEMA,
-        PROXECTO,
-        ETAPA,
-        HISTORIA,
-        ACTUACION
-end note
-
-note right of Rol::permisos
-    [
-        read,
-        create,
-        update,
-        delete
-    ]
-end note
 
 ' ################################################################################
 ' ## Tipo
@@ -331,8 +248,85 @@ class Contacto #AliceBlue ##Blue {
     {field} contacto: string
 }
 
-Usuario "1..*" -- Contacto #Blue
-Usuario "1..*" -- Rol #DarkBlue
-Usuario "0..*" -- Horario #Blue
+' ################################################################################
+' ## RELACIÓNS
+' ################################################################################
+
+'Actuacion
+
+Actuacion -- "creador" Usuario #Blue
+Actuacion "1..*" o-- "participan" Usuario #Blue
+Actuacion "0..*" o-- Usuario  #Blue: Validadores <
+Actuacion "1..*" o-- Rol #DarkBlue : Asignados <
+Actuacion "0..*" o-- Comentario #Black
+Actuacion "0..*" --o HistoriaProduto #Green
+
+'Comentario
+Comentario -- Usuario #Blue : Creador
+Comentario "1..*" o-- Rol #DarkBlue : Visivilidade <
+
+'Etapa
+Etapa - Estado #DarkGreen
+
+Etapa "1..*" o-- "participan" Usuario #Blue
+Etapa "0..*" o-- Usuario #Blue : Validadores <
+Etapa "1..*" o-- Rol #DarkBlue : Asignados <
+Etapa "0..*" o-- Comentario #Black
+
+Etapa "0..*" --o Proxecto #SteelBlue
+Etapa "0..*" --o Actuacion #Green
+Etapa "0..*" --o HistoriaProduto
+
+'EstimacionTempo
+EstimacionTempo -- HistoriaProduto #GoldenRod
+EstimacionTempo -- Actuacion #GoldenRod
+
+'Estado
+Estado -- Actuacion #DarkGreen
+Estado -- Proxecto #DarkGreen
+Estado -- HistoriaProduto #DarkGreen
+
+'HistoricoEstado
+HistoricoEstado -- Usuario #Blue : Creador
+HistoricoEstado "1..*" o-- Rol #DarkBlue : Visivilidade <
+HistoricoEstado - Estado #DarkGreen : Previo
+HistoricoEstado - Estado #DarkGreen : Novo
+
+'HistoriaProduto
+HistoriaProduto "0..*" o-- HistoriaProduto #DarkKhaki : Dependencias
+HistoriaProduto -- Usuario #Blue : creador
+HistoriaProduto "1..*" o-- "participan" Usuario #Blue
+HistoriaProduto "0..*" o-- Usuario #Blue : Validadores <
+HistoriaProduto "0..*" o-- Repo #OrangeRed
+HistoriaProduto "1..*" o-- Rol #DarkBlue : Asignados <
+HistoriaProduto "0..*" o-- Comentario #Black
+HistoriaProduto "0..*" --o Proxecto #DarkKhaki
+
+'Prioridade
+Prioridade -- Actuacion #DeepPink
+Prioridade -- HistoriaProduto #DeepPink
+
+'Proxecto
+
+Proxecto "1..*" o-- "participan" Usuario #Blue
+Proxecto "0..*" o-- Usuario #Blue : Validadores <
+Proxecto "1..*" o-- Rol #DarkBlue : Asignados <
+Proxecto "0..*" o-- Repo #OrangeRed
+Proxecto "0..*" o-- Comentario #Black
+
+'Repo
+Repo -- Usuario #Blue : Creador
+Repo "1..*" -- Rol #DarkBlue : Visivilidade <
+
+'Rol
+
+'Tipo
+Tipo -- HistoriaProduto #RosyBrown
+Tipo -- Actuacion #RosyBrown
+
+'Usuario
+Usuario "1..*" o- Rol #DarkBlue
+Usuario "1..*" *-- Contacto #Blue
+Usuario "0..*" *-- Horario #Blue
 
 @enduml

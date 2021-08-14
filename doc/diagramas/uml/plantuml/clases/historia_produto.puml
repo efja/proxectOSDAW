@@ -18,19 +18,23 @@
         {method} delete()
     }
 
+    Etapa "0..*" --o HistoriaProduto
+    HistoriaProduto "0..*" o-- HistoriaProduto #DarkKhaki : Dependencias
+
+    Estado -- HistoriaProduto #DarkGreen
+    EstimacionTempo -- HistoriaProduto #GoldenRod
+    Prioridade -- HistoriaProduto #DeepPink
+    Tipo -- HistoriaProduto #RosyBrown
+
+    Actuacion "0..*" --o HistoriaProduto #Green
+
+
     HistoriaProduto -- Usuario #Blue : creador
-    HistoriaProduto -- Estado #DarkGreen
-    HistoriaProduto -- EstimacionTempo #GoldenRod
-    HistoriaProduto -- Prioridade #DeepPink
-    HistoriaProduto -- Tipo #RosyBrown
-    HistoriaProduto "0..*" -- Repo #OrangeRed
-    HistoriaProduto "1..*" -- Usuario #Blue
-    HistoriaProduto "0..*" -- Usuario #Blue : Validadores <
-    HistoriaProduto "1..*" -- Rol #DarkBlue : Asignados <
-    HistoriaProduto "0..*" -- Comentario #Black
-    HistoriaProduto "0..*" -- Etapa
-    HistoriaProduto "0..*" -- Actuacion #Green
-    HistoriaProduto "0..*" -- HistoriaProduto #DarkKhaki : Dependencias
+    HistoriaProduto "1..*" o-- "participan" Usuario #Blue
+    HistoriaProduto "0..*" o-- Usuario #Blue : Validadores <
+    HistoriaProduto "0..*" o-- Repo #OrangeRed
+    HistoriaProduto "1..*" o-- Rol #DarkBlue : Asignados <
+    HistoriaProduto "0..*" o-- Comentario #Black
 !endsub
 
 @enduml

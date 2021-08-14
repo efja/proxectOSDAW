@@ -16,7 +16,7 @@
     }
 
     Comentario -- Usuario #Blue : Creador
-    Comentario "1..*" -- Rol #DarkBlue : Visivilidade <
+    Comentario "1..*" o-- Rol #DarkBlue : Visivilidade <
 !endsub
 
 @enduml

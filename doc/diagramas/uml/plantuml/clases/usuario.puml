@@ -28,9 +28,9 @@
         {field} contacto: string
     }
 
-    Usuario "1..*" - Rol #DarkBlue
-    Usuario "1..*" -- Contacto #Blue
-    Usuario "0..*" -- Horario #Blue
+    Usuario "1..*" o- Rol #DarkBlue
+    Usuario "1..*" *-- Contacto #Blue
+    Usuario "0..*" *-- Horario #Blue
 !endsub
 
 @enduml

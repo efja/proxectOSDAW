@@ -17,14 +17,15 @@
         {method} delete()
     }
 
-    Proxecto -- Estado #DarkGreen
-    Proxecto "0..*" -- Repo #OrangeRed
-    Proxecto "1..*" -- Usuario #Blue
-    Proxecto "0..*" -- Usuario #Blue : Validadores <
-    Proxecto "1..*" -- Rol #DarkBlue : Asignados <
-    Proxecto "0..*" -- Etapa #SteelBlue
-    Proxecto "0..*" -- HistoriaProduto #DarkKhaki
-    Proxecto "0..*" -- Comentario #Black
+    Estado -- Proxecto #DarkGreen
+    Etapa "0..*" --o Proxecto #SteelBlue
+    HistoriaProduto "0..*" --o Proxecto #DarkKhaki
+
+    Proxecto "1..*" o-- "participan" Usuario #Blue
+    Proxecto "0..*" o-- Usuario #Blue : Validadores <
+    Proxecto "1..*" o-- Rol #DarkBlue : Asignados <
+    Proxecto "0..*" o-- Repo #OrangeRed
+    Proxecto "0..*" o-- Comentario #Black
 !endsub
 
 @enduml
