@@ -131,4 +131,4 @@ Nesta fase acometeranse de xeito máis profundo e concreto as tarefas da fase de
 
    <!-- Enlaces imaxes -->
 
-   [cronograma]: <../img/cronograma.png>
+   [cronograma]: <../diagramas/gantt/svg/cronograma.svg>

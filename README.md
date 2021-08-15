@@ -48,7 +48,7 @@ Os autores de **ProxectOS** non se fan responsables, baixo ningunha circunstacia
    3.1. [Deseño en SVG][desenho-svg]
 4. [Codificación e Probas][codificacion_probas]
 <!-- 5. [Manuais][manuais] -->
-<!-- 6. [Estrateixia de versionado][estratexia_de_versionado] -->
+6. [Estrateixia de versionado][estratexia_de_versionado]
 <!-- 7. [Changelog API][changelog_api] -->
 <!-- 8. [Changelog FRONTAL][changelog_ui] -->
 

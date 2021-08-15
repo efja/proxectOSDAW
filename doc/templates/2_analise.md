@@ -17,6 +17,8 @@ Este traballo dividirase en tres partes:
 >
 > Para ver os diagramas integrados no documento empregar as seguitnes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos, nun diagrama máis completo, no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
 
+<div style="page-break-after: always;"></div>
+
 ### 2.1. Xestión de usuarios
 
   ```plantuml
@@ -38,8 +40,6 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-  <div style="page-break-after: always;"></div>
-
 - Modificar:
 
   ```js
@@ -55,6 +55,8 @@ Este traballo dividirase en tres partes:
       horario,
     }
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Eliminar:
 
@@ -130,6 +132,8 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+  <div style="page-break-after: always;"></div>
+
 - Modificar:
 
   ```js
@@ -160,13 +164,13 @@ Este traballo dividirase en tres partes:
     }
   ```
 
-<div style="page-break-after: always;"></div>
-
 ### 2.4. Xestión de etapas
 
   ```plantuml
   !include ../diagramas/uml/plantuml/clases/etapa.puml
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Crear:
 
@@ -218,10 +222,10 @@ Este traballo dividirase en tres partes:
 ### 2.5. Xestión de historias
 
   ```plantuml
-  scale 1000 width
-
   !include ../diagramas/uml/plantuml/clases/historia_produto.puml
   ```
+
+  <div style="page-break-after: always;"></div>
 
 - Crear:
 
@@ -322,6 +326,8 @@ Este traballo dividirase en tres partes:
       id
     }
   ```
+
+  <div style="page-break-after: always;"></div>
 
 ### 2.7. Xestión de Prioridades
 
@@ -496,13 +502,13 @@ Este traballo dividirase en tres partes:
     }
   ```
 
+<div style="page-break-after: always;"></div>
+
 ### 2.11. Xestión de repositorios
 
   ```plantuml
   !include ../diagramas/uml/plantuml/clases/repo.puml
   ```
-
-  <div style="page-break-after: always;"></div>
 
 - Crear:
 
@@ -568,8 +574,6 @@ En principio haberá un histórico por cada táboa que teña un estado.
     }
   ```
 
-  <div style="page-break-after: always;"></div>
-
 - Eliminar:
 
   ```js
@@ -577,6 +581,8 @@ En principio haberá un histórico por cada táboa que teña un estado.
       id
     }
   ```
+
+<div style="page-break-after: always;"></div>
 
 ## 3. Requerimentos non funcionais
 

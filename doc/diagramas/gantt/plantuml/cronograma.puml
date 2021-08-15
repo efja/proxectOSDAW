@@ -1,0 +1,46 @@
+@startgantt
+<style>
+ganttDiagram {
+	task {
+		FontStyle bold
+	}
+	arrow {
+		LineColor blue
+	}
+}
+</style>
+Project starts the 2021-09-25
+
+' Documentación
+[Doc inicial] as [doc_pre] lasts 6 days
+[doc_pre] is colored in LightGrey/Black
+
+' API
+[Test API] as [test_api] starts 2021-10-01 and lasts 8 days
+[test_api] is colored in APPLICATION/Blue
+[Dev API] as [dev_api] lasts 12 days
+[dev_api] is colored in LightBlue/DarkBlue
+
+[test_api]->[dev_api]
+
+' UI
+[Test UI] as [test_ui] starts 2021-10-21 and lasts 7 days
+[test_ui] is colored in GhostWhite/OrangeRed
+[Dev UI] as [dev_ui] lasts 25 days
+[dev_ui] is colored in FloralWhite/OrangeRed
+
+[test_ui]->[dev_ui]
+
+' PERSISTENCIA
+[Test Persis.] as [test_persis] starts 2021-11-22 and lasts 6 days
+[test_persis] is colored in GreenYellow/DarkGreen
+[Dev Persis.] as [dev_persis] lasts 7 days
+[dev_persis] is colored in  LightGreen/Green
+
+[test_persis]->[dev_persis]
+
+' Documentación
+[Rematar Doc] as [doc_fin] starts 2021-12-05 and lasts 10 days
+[doc_fin] is colored in LightGrey/Black
+
+@endgantt

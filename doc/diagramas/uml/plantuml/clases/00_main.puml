@@ -1,4 +1,4 @@
-@startuml Usuario
+@startuml 00_main
 
 ' ################################################################################
 ' ## Actuacion
@@ -259,7 +259,7 @@ Actuacion "1..*" o-- "participan" Usuario #Blue
 Actuacion "0..*" o-- Usuario  #Blue: Validadores <
 Actuacion "1..*" o-- Rol #DarkBlue : Asignados <
 Actuacion "0..*" o-- Comentario #Black
-Actuacion "0..*" --o HistoriaProduto #Green
+Actuacion "0..*" -o HistoriaProduto #Green
 
 'Comentario
 Comentario -- Usuario #Blue : Creador
@@ -297,10 +297,9 @@ HistoriaProduto "0..*" o-- HistoriaProduto #DarkKhaki : Dependencias
 HistoriaProduto -- Usuario #Blue : creador
 HistoriaProduto "1..*" o-- "participan" Usuario #Blue
 HistoriaProduto "0..*" o-- Usuario #Blue : Validadores <
-HistoriaProduto "0..*" o-- Repo #OrangeRed
 HistoriaProduto "1..*" o-- Rol #DarkBlue : Asignados <
 HistoriaProduto "0..*" o-- Comentario #Black
-HistoriaProduto "0..*" --o Proxecto #DarkKhaki
+HistoriaProduto "0..*" -o Proxecto #DarkKhaki
 
 'Prioridade
 Prioridade -- Actuacion #DeepPink
@@ -311,12 +310,13 @@ Prioridade -- HistoriaProduto #DeepPink
 Proxecto "1..*" o-- "participan" Usuario #Blue
 Proxecto "0..*" o-- Usuario #Blue : Validadores <
 Proxecto "1..*" o-- Rol #DarkBlue : Asignados <
-Proxecto "0..*" o-- Repo #OrangeRed
 Proxecto "0..*" o-- Comentario #Black
 
 'Repo
-Repo -- Usuario #Blue : Creador
-Repo "1..*" -- Rol #DarkBlue : Visivilidade <
+Repo -o "0..*" Proxecto #OrangeRed
+Repo -o "0..*" HistoriaProduto #OrangeRed
+Repo --- Usuario #Blue : Creador
+Repo "1..*" --- Rol #DarkBlue : Visivilidade <
 
 'Rol
 
