@@ -1,0 +1,69 @@
+@startuml
+
+' ######################################################################################
+' ## Estilos
+' ######################################################################################
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+}
+
+' ######################################################################################
+' ## Diagrama
+' ######################################################################################
+
+rectangle "Propietarios Produto" {
+    ' Casos de uso
+    usecase "Ver Proxecto" as VerProxectoOwner #LightSteelBlue
+
+    usecase "Ver Comentario" as VerComentarioOwner #LightGrey
+    usecase "Crear Comentario" as CrearComentarioOwner #LightGrey
+
+    usecase "Ver Historia Produto" as VerHProdutoOwner #Khaki
+    usecase "Solicitar Historia Produto" as CrearHProdutoOwner #Khaki
+
+    usecase "Ver Actuación" as VerActuacionOwner #LightGreen
+    usecase "Solicitar Actuación" as CrearActuacionOwner #LightGreen
+
+    usecase "Ver Etapa" as VerEtapaOwner #LightCyan
+    usecase "Ver Estado" as VerEstadoOwner #LimeGreen
+}
+
+' ######################################################################################
+' ## Relacións Casos de uso
+' ######################################################################################
+
+VerProxectoOwner <... VerHProdutoOwner #Red : Extend
+VerHProdutoOwner <.. CrearHProdutoOwner #Red : Extend
+VerHProdutoOwner <. VerActuacionOwner #Green : Extend
+
+VerProxectoOwner <... VerActuacionOwner #Green : Extend
+VerActuacionOwner <. CrearActuacionOwner #Green : Extend
+
+' Comentarios
+VerProxectoOwner <.. VerComentarioOwner #Blue : Extend
+
+VerComentarioOwner <.. CrearComentarioOwner #Blue: Extend
+VerHProdutoOwner <.. VerComentarioOwner #Black : Extend
+VerActuacionOwner <.. VerComentarioOwner #Magenta : Extend
+
+' Etapas
+VerEtapaOwner <. VerProxectoOwner #00bfff : Extend
+VerEtapaOwner <. VerHProdutoOwner #00bfff : Extend
+VerEtapaOwner <. VerActuacionOwner #00bfff : Extend
+
+' Estados
+VerEstadoOwner <. VerProxectoOwner #DarkGreen : Extend
+VerEstadoOwner <. VerHProdutoOwner #DarkGreen : Extend
+VerEstadoOwner <. VerActuacionOwner #DarkGreen : Extend
+
+@enduml
+

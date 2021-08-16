@@ -1,0 +1,81 @@
+
+@startuml
+
+' ######################################################################################
+' ## Estilos
+' ######################################################################################
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+' ######################################################################################
+' ## Diagrama
+' ######################################################################################
+
+rectangle "Desenvolvedores" {
+    ' Casos de uso
+    usecase "Ver Proxecto" as VerProxectoDev #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoDev #Khaki
+    usecase "Modificar Historia Produto" as ModificarHProdutoDev #Khaki
+    usecase "Crear Historia Produto" as CrearHProdutoDev #Khaki
+
+    usecase "Ver Actuación" as VerActuacionDev #LightGreen
+    usecase "Modificar Actuación" as ModificarActuacionDev #LightGreen
+    usecase "Crear Actuación" as CrearActuacionDev #LightGreen
+
+    usecase "Ver Estado" as VerEstadoDev #LimeGreen
+    usecase "Asignar Estado" as AsignarEstadoDev #LimeGreen
+
+    usecase "Ver Repo" as VerRepoDev #GhostWhite
+    usecase "Asignar Repo" as AsignarRepoDev #GhostWhite
+
+    usecase "Ver Etapa" as VerEtapaDev #LightCyan
+    usecase "Asignar Etapa" as AsignarEtapaDev #LightCyan
+}
+
+' ######################################################################################
+' ## Relacións Casos de uso
+' ######################################################################################
+' Repos
+VerRepoDev <. VerProxectoDev #OrangeRed : Extend
+VerRepoDev <. VerHProdutoDev #OrangeRed : Extend
+VerRepoDev <. AsignarRepoDev #OrangeRed : Extend
+
+' Historias Produto
+VerProxectoDev <.. VerHProdutoDev : Extend
+VerHProdutoDev <.. ModificarHProdutoDev #DarkKhaki : Extend
+VerHProdutoDev <.. CrearHProdutoDev #DarkKhaki : Extend
+VerHProdutoDev <. VerActuacionDev #Fuchsia : Extend
+
+' Actuacións
+VerProxectoDev <.. VerActuacionDev : Extend
+VerActuacionDev <.. ModificarActuacionDev #Green : Extend
+VerActuacionDev <.. CrearActuacionDev #Green : Extend
+
+' Estados
+VerEstadoDev <.. AsignarEstadoDev #Green : Extend
+
+VerProxectoDev <... VerEstadoDev #Blue : Extend
+VerHProdutoDev <... VerEstadoDev #DarkKhaki : Extend
+VerActuacionDev <... VerEstadoDev #Green : Extend
+
+' Estapas
+VerEtapaDev <. AsignarEtapaDev #Green : Extend
+
+VerProxectoDev <.. VerEtapaDev #Blue : Extend
+VerHProdutoDev <.. VerEtapaDev #DarkKhaki : Extend
+VerActuacionDev <.. VerEtapaDev #Green : Extend
+
+@enduml
+

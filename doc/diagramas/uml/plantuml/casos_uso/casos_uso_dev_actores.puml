@@ -1,0 +1,17 @@
+
+@startuml
+
+!include casos_uso_dev.puml
+
+' Actores
+actor "Propietario Produto" as owner
+actor "Desenvolvedor" as dev
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+owner <|- dev
+dev -- VerProxectoDev
+
+@enduml
+

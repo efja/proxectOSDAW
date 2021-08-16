@@ -2,7 +2,7 @@
 
 > Os diagramas deste documento están escritos na linguaxe `plantuml`, para máis información de como renderizar estos gráficos podes acudir ó seu sitio web en [https://plantuml.com][plantuml-com], para consultar a súa [instalación][plantuml-starting].
 >
-> Para ver os diagramas integrados no documento empregar as seguitnes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos, nun diagrama máis completo, no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
+> Para ver os diagramas integrados no documento empregar as seguintes extensións de vscode: [PlantUML][plantuml-extension] e [Markdown Preview Enhanced][markdown-preview-enhanced]. Tamén podes atopalos no apartado [3. deseño en SVG][desenho-svg] desta documentación en formato `svg`.
 
 ## Modelo conceptual do dominio da aplicación
 
@@ -12,11 +12,17 @@
   !include ../diagramas/uml/plantuml/clases/00_main.puml
   ```
 
+<div style="page-break-after: always;"></div>
+
 ## Casos de uso
 
-Descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso.
+  ```plantuml {r my-chunk, R.options = list(width = 50)}
+  scale 900 width
 
-// TODO:
+  !include ../diagramas/uml/plantuml/casos_uso/casos_uso.puml
+  ```
+
+<div style="page-break-after: always;"></div>
 
 ## Deseño de interface de usuarios
 

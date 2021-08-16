@@ -1,0 +1,16 @@
+@startuml
+
+!include casos_uso_validador.puml
+
+' Actores
+actor "Propietario Produto" as owner
+actor Validador
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+owner <|- Validador
+Validador -- VerProxectoValidador
+
+@enduml
+

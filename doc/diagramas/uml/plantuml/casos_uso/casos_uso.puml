@@ -1,0 +1,28 @@
+@startuml
+
+left to right direction
+
+!include casos_uso_dev.puml
+!include casos_uso_admin.puml
+!include casos_uso_validador.puml
+!include casos_uso_propietario.puml
+
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+' Herencias
+owner <|- Validador
+owner <|- dev
+dev <|- admin
+Comercial ---|> owner
+
+' Relacións
+Validador --- VerProxectoValidador
+owner --- VerProxectoOwner
+dev --- VerProxectoDev
+admin --- VerProxectoAdmin
+admin --- CrearProxectoAdmin
+
+@enduml
+

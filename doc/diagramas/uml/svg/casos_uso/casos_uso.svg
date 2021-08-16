@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2305px" preserveAspectRatio="none" style="width:1889px;height:2305px;background:#FFFFFF;" version="1.1" viewBox="0 0 1889 2305" width="1889px" zoomAndPan="magnify"><defs><filter height="300%" id="f8dk6b400w2s9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fd8ccc938dd59863ba677a1829ed498c]
+cluster Desenvolvedores--><rect fill="#FFFFFF" filter="url(#f8dk6b400w2s9)" height="681" style="stroke:#000000;stroke-width:1.5;" width="1452" x="418" y="606"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="1075" y="620.9951">Desenvolvedores</text><!--MD5=[6816ffc9ca03ea9ee300658636b28269]
+cluster Administradores--><rect fill="#FFFFFF" filter="url(#f8dk6b400w2s9)" height="375" style="stroke:#000000;stroke-width:1.5;" width="1450.5" x="414" y="1311"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="1074.25" y="1325.9951">Administradores</text><!--MD5=[451ebe0e7398b02fe6c586b2f2bff705]
+cluster Validadores--><rect fill="#FFFFFF" filter="url(#f8dk6b400w2s9)" height="583" style="stroke:#000000;stroke-width:1.5;" width="1187.5" x="419.5" y="1710"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="966.75" y="1724.9951">Validadores</text><!--MD5=[175b98dae5f40c58ab97a9bd32f88b16]
+cluster Propietarios Produto--><rect fill="#FFFFFF" filter="url(#f8dk6b400w2s9)" height="575" style="stroke:#000000;stroke-width:1.5;" width="1457.5" x="419.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="164" x="1066.25" y="21.9951">Propietarios Produto</text><ellipse cx="503.74" cy="931.048" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="68.24" ry="16.048" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="456.74" y="934.7956">Ver Proxecto</text><ellipse cx="770.9128" cy="1072.9826" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="87.9128" ry="19.9826" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="702.4128" y="1075.8292">Ver Historia Produto</text><ellipse cx="1176.9911" cy="1246.8982" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="104.9911" ry="23.3982" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1089.4911" y="1249.7449">Modificar Historia Produto</text><ellipse cx="1177.1163" cy="1167.2233" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="94.1163" ry="21.2233" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1101.6163" y="1170.0699">Crear Historia Produto</text><ellipse cx="770.8049" cy="910.061" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="70.8049" ry="16.561" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="720.3049" y="913.8085">Ver Actuación</text><ellipse cx="1177.1635" cy="855.1327" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="86.1635" ry="19.6327" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1110.6635" y="857.9794">Modificar Actuación</text><ellipse cx="1177.1676" cy="783.1335" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="76.1676" ry="17.6335" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1119.6676" y="786.8811">Crear Actuación</text><ellipse cx="1489.7248" cy="695.145" fill="#32CD32" filter="url(#f8dk6b400w2s9)" rx="63.7248" ry="15.145" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1449.2248" y="698.8925">Ver Estado</text><ellipse cx="1779.8343" cy="695.1669" fill="#32CD32" filter="url(#f8dk6b400w2s9)" rx="73.8343" ry="17.1669" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1725.3343" y="698.9144">Asignar Estado</text><ellipse cx="503.3265" cy="1081.7566" fill="#F8F8FF" filter="url(#f8dk6b400w2s9)" rx="57.8265" ry="14.7566" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="468.3265" y="1085.5041">Ver Repo</text><ellipse cx="503.6952" cy="998.839" fill="#F8F8FF" filter="url(#f8dk6b400w2s9)" rx="69.6952" ry="16.339" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="454.6952" y="1002.5866">Asignar Repo</text><ellipse cx="1176.8197" cy="1008.7671" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="59.3197" ry="14.7671" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1140.8197" y="1012.5147">Ver Etapa</text><ellipse cx="1176.9333" cy="925.9867" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="70.4333" ry="16.4867" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1126.9333" y="929.7342">Asignar Etapa</text><ellipse cx="503.74" cy="1363.048" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="68.24" ry="16.048" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="456.74" y="1366.7956">Ver Proxecto</text><ellipse cx="503.4504" cy="1448.0901" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="73.4504" ry="17.0901" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="449.4504" y="1451.8376">Crear Proxecto</text><ellipse cx="770.9128" cy="1591.9826" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="87.9128" ry="19.9826" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="702.4128" y="1594.8292">Ver Historia Produto</text><ellipse cx="770.8049" cy="1416.061" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="70.8049" ry="16.561" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="720.3049" y="1419.8085">Ver Actuación</text><ellipse cx="1489.7248" cy="1400.145" fill="#32CD32" filter="url(#f8dk6b400w2s9)" rx="63.7248" ry="15.145" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1449.2248" y="1403.8925">Ver Estado</text><ellipse cx="1780.1011" cy="1400.1202" fill="#32CD32" filter="url(#f8dk6b400w2s9)" rx="68.6011" ry="16.1202" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="1732.6011" y="1403.8678">Crear Estado</text><ellipse cx="503.3265" cy="1597.7566" fill="#F8F8FF" filter="url(#f8dk6b400w2s9)" rx="57.8265" ry="14.7566" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="468.3265" y="1601.5041">Ver Repo</text><ellipse cx="503.7353" cy="1515.8471" fill="#F8F8FF" filter="url(#f8dk6b400w2s9)" rx="64.7353" ry="15.3471" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="461.7353" y="1519.5946">Crear Repo</text><ellipse cx="1176.8197" cy="1567.7671" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="59.3197" ry="14.7671" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1140.8197" y="1571.5147">Ver Etapa</text><ellipse cx="1176.92" cy="1485.984" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="65.42" ry="15.484" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1133.92" y="1489.7316">Crear Etapa</text><ellipse cx="503.74" cy="1897.048" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="68.24" ry="16.048" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="456.74" y="1900.7956">Ver Proxecto</text><ellipse cx="965.5612" cy="1789.2122" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="76.5612" ry="17.7122" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="907.5612" y="1792.9598">Validar Proxecto</text><ellipse cx="771.0271" cy="2155.1054" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="81.0271" ry="18.6054" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="709.2415" y="2158.3718">Rexeitar Proxecto</text><ellipse cx="770.9128" cy="1896.9826" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="87.9128" ry="19.9826" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="702.4128" y="1899.8292">Ver Historia Produto</text><ellipse cx="1177.211" cy="1853.9422" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="97.711" ry="21.9422" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1097.711" y="1856.7889">Validar Historia Produto</text><ellipse cx="1177.2042" cy="1933.9408" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="102.7042" ry="22.9408" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="1092.2042" y="1936.7875">Rexeitar Historia Produto</text><ellipse cx="1489.3371" cy="2242.1674" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="101.3371" ry="22.6674" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1405.8371" y="2245.0141">Solicitar Historia Produto</text><ellipse cx="770.8049" cy="2011.061" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="70.8049" ry="16.561" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="720.3049" y="2014.8085">Ver Actuación</text><ellipse cx="1176.8735" cy="2010.7747" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="79.3735" ry="18.2747" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1116.4676" y="2014.2248">Validar Actuación</text><ellipse cx="1176.995" cy="2084.199" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="83.995" ry="19.199" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1112.7335" y="2087.1356">Rexeitar Actuación</text><ellipse cx="1489.712" cy="2083.9424" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="82.712" ry="18.9424" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1426.5208" y="2087.0215">Solicitar Actuación</text><ellipse cx="1489.3288" cy="1853.7658" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="69.3288" ry="16.2658" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1440.8288" y="1857.5133">Pechar Etapa</text><ellipse cx="503.74" cy="231.048" fill="#B0C4DE" filter="url(#f8dk6b400w2s9)" rx="68.24" ry="16.048" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="456.74" y="234.7956">Ver Proxecto</text><ellipse cx="1489.3844" cy="255.9769" fill="#D3D3D3" filter="url(#f8dk6b400w2s9)" rx="75.3844" ry="17.4769" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="1432.8844" y="259.7244">Ver Comentario</text><ellipse cx="1780.0271" cy="256.1054" fill="#D3D3D3" filter="url(#f8dk6b400w2s9)" rx="81.0271" ry="18.6054" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1718.2415" y="259.3718">Crear Comentario</text><ellipse cx="1176.9128" cy="356.9826" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="87.9128" ry="19.9826" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1108.4128" y="359.8292">Ver Historia Produto</text><ellipse cx="1489.3371" cy="370.1674" fill="#F0E68C" filter="url(#f8dk6b400w2s9)" rx="101.3371" ry="22.6674" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1405.8371" y="373.0141">Solicitar Historia Produto</text><ellipse cx="1176.8049" cy="269.061" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="70.8049" ry="16.561" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1126.3049" y="272.8085">Ver Actuación</text><ellipse cx="1177.212" cy="181.9424" fill="#90EE90" filter="url(#f8dk6b400w2s9)" rx="82.712" ry="18.9424" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1114.0208" y="185.0215">Solicitar Actuación</text><ellipse cx="503.3197" cy="487.7671" fill="#E0FFFF" filter="url(#f8dk6b400w2s9)" rx="59.3197" ry="14.7671" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="467.3197" y="491.5147">Ver Etapa</text><ellipse cx="503.7248" cy="314.145" fill="#32CD32" filter="url(#f8dk6b400w2s9)" rx="63.7248" ry="15.145" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="463.2248" y="317.8925">Ver Estado</text><!--MD5=[55f2968de154b8cc740615bf6e5af92f]
+entity owner--><ellipse cx="228.5" cy="548" fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" rx="16" ry="16" style="stroke:#001A4D;stroke-width:1.5;"/><path d="M228.5,568 C232.5,568 235.5,568 239.5,564 C247.5,564 255.5,572 255.5,580 L255.5,584 C255.5,588 251.5,592 247.5,592 L209.5,592 C205.5,592 201.5,588 201.5,584 L201.5,580 C201.5,572 209.5,564 217.5,564 C221.5,568 224.5,568 228.5,568 " fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="207" y="606.4951">owner</text><!--MD5=[f6cf8decbdd122c8906b7d254d183d52]
+entity Validador--><ellipse cx="228.5" cy="1309" fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" rx="16" ry="16" style="stroke:#001A4D;stroke-width:1.5;"/><path d="M228.5,1329 C232.5,1329 235.5,1329 239.5,1325 C247.5,1325 255.5,1333 255.5,1341 L255.5,1345 C255.5,1349 251.5,1353 247.5,1353 L209.5,1353 C205.5,1353 201.5,1349 201.5,1345 L201.5,1341 C201.5,1333 209.5,1325 217.5,1325 C221.5,1329 224.5,1329 228.5,1329 " fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="197" y="1367.4951">Validador</text><!--MD5=[3d99d59a27ec55cd9b0b1490801f78bc]
+entity dev--><ellipse cx="228.5" cy="662" fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" rx="16" ry="16" style="stroke:#001A4D;stroke-width:1.5;"/><path d="M228.5,682 C232.5,682 235.5,682 239.5,678 C247.5,678 255.5,686 255.5,694 L255.5,698 C255.5,702 251.5,706 247.5,706 L209.5,706 C205.5,706 201.5,702 201.5,698 L201.5,694 C201.5,686 209.5,678 217.5,678 C221.5,682 224.5,682 228.5,682 " fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="216" y="720.4951">dev</text><!--MD5=[79a439086b036a57b90a01d7b2f8bbd1]
+entity admin--><ellipse cx="228.5" cy="1005" fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" rx="16" ry="16" style="stroke:#001A4D;stroke-width:1.5;"/><path d="M228.5,1025 C232.5,1025 235.5,1025 239.5,1021 C247.5,1021 255.5,1029 255.5,1037 L255.5,1041 C255.5,1045 251.5,1049 247.5,1049 L209.5,1049 C205.5,1049 201.5,1045 201.5,1041 L201.5,1037 C201.5,1029 209.5,1021 217.5,1021 C221.5,1025 224.5,1025 228.5,1025 " fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="207.5" y="1063.4951">admin</text><!--MD5=[c5684aca041d1f33462d37a1b3ab5c59]
+entity Comercial--><ellipse cx="40" cy="548" fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" rx="16" ry="16" style="stroke:#001A4D;stroke-width:1.5;"/><path d="M40,568 C44,568 47,568 51,564 C59,564 67,572 67,580 L67,584 C67,588 63,592 59,592 L21,592 C17,592 13,588 13,584 L13,580 C13,572 21,564 29,564 C33,568 36,568 40,568 " fill="#CCDDFF" filter="url(#f8dk6b400w2s9)" style="stroke:#001A4D;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="6" y="606.4951">Comercial</text><!--MD5=[7d504e43d60248bbcd22501da42b2cfa]
+reverse link VerRepoDev to VerProxectoDev--><path d="M450.48,1090.79 C424.46,1091.85 394.93,1087.61 377,1067.5 C354.56,1042.34 327.94,1043.73 406,965 C417.55,953.35 433.3,945.69 448.77,940.65 " fill="none" id="VerRepoDev-backto-VerProxectoDev" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="455.63,1090.51,446.4264,1087.0037,450.6374,1090.781,446.8601,1094.992,455.63,1090.51" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="353" y="1063.5669">Extend</text><!--MD5=[517bfb490c6e9f2de6d155cd10a4698f]
+reverse link VerRepoDev to VerHProdutoDev--><path d="M566.44,1084.1 C579.81,1084.48 593.88,1084.81 607,1085 C627.44,1085.3 632.58,1086.04 653,1085 C665.75,1084.35 679.24,1083.3 692.36,1082.09 " fill="none" id="VerRepoDev-backto-VerHProdutoDev" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="561.15,1083.95,570.0321,1088.2054,566.148,1084.0928,570.2606,1080.2087,561.15,1083.95" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1081.0669">Extend</text><!--MD5=[b9f57f8d9258083acd9c8da818fd55de]
+reverse link VerRepoDev to AsignarRepoDev--><path d="M503.5,1061.77 C503.5,1047.58 503.5,1028.85 503.5,1015.55 " fill="none" id="VerRepoDev-backto-AsignarRepoDev" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="503.5,1066.78,507.5,1057.78,503.5,1061.78,499.5,1057.78,503.5,1066.78" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="470" y="1045.8169">Extend</text><!--MD5=[c6fcaa5acea78622b9c3e540e18174b5]
+reverse link VerProxectoDev to VerHProdutoDev--><path d="M549.05,946.07 C559.1,950.97 569.11,957.21 577,965 C598.78,986.51 583.54,1007.34 607,1027 C630.55,1046.74 662.03,1058.03 691.05,1064.48 " fill="none" id="VerProxectoDev-backto-VerHProdutoDev" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="544.44,943.92,550.9028,951.3518,548.9706,946.0352,554.2872,944.1029,544.44,943.92" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1023.0669">Extend</text><!--MD5=[22e7cc3a1b46e4bef038bb6e88c73338]
+reverse link VerHProdutoDev to ModificarHProdutoDev--><path d="M796.6,1096 C819.12,1115.95 854.14,1144.33 889,1162 C955.51,1195.71 1037.64,1218.34 1096.97,1231.71 " fill="none" id="VerHProdutoDev-backto-ModificarHProdutoDev" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="792.82,1092.63,796.8701,1101.6076,796.5499,1095.9598,802.1977,1095.6397,792.82,1092.63" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1158.0669">Extend</text><!--MD5=[5d77ce2034774d4866339cd9987ffb2c]
+reverse link VerHProdutoDev to CrearHProdutoDev--><path d="M835.42,1088.97 C852.77,1093.27 871.6,1097.87 889,1102 C964.43,1119.89 1051.28,1139.41 1109.51,1152.34 " fill="none" id="VerHProdutoDev-backto-CrearHProdutoDev" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="830.56,1087.76,838.3379,1093.8019,835.4141,1088.9592,840.2567,1086.0354,830.56,1087.76" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1098.0669">Extend</text><!--MD5=[9fa1b39e51403ecad1e76aa20ee836e0]
+reverse link VerHProdutoDev to VerActuacionDev--><path d="M704.75,1056.72 C676.61,1046.18 646.53,1029.24 630,1002.5 C604.76,961.66 669.72,935.18 719.68,921.43 " fill="none" id="VerHProdutoDev-backto-VerActuacionDev" style="stroke:#FF00FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF00FF" points="709.61,1058.49,702.5255,1051.6482,704.9127,1056.7767,699.7842,1059.1639,709.61,1058.49" style="stroke:#FF00FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="998.5669">Extend</text><!--MD5=[230823207e5518eaeecbe06b64c8835f]
+reverse link VerProxectoDev to VerActuacionDev--><path d="M573.42,925.55 C613.43,922.38 663.58,918.42 703.22,915.28 " fill="none" id="VerProxectoDev-backto-VerActuacionDev" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="568.09,925.97,577.3811,929.2374,573.074,925.5701,576.7413,921.2631,568.09,925.97" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="916.0669">Extend</text><!--MD5=[7e8268730c3289f5bd176e7316e0d982]
+reverse link VerActuacionDev to ModificarActuacionDev--><path d="M838.08,901 C910.84,891.1 1027.5,875.22 1102.93,864.95 " fill="none" id="VerActuacionDev-backto-ModificarActuacionDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="832.92,901.71,842.3754,904.4658,837.8748,901.0389,841.3017,896.5382,832.92,901.71" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="871.0669">Extend</text><!--MD5=[78bd64011624172af1a41266a5e929ab]
+reverse link VerActuacionDev to CrearActuacionDev--><path d="M802.14,891.94 C825.24,878.75 858.26,861.28 889,850 C964.42,822.33 1055.27,803.4 1114.27,792.9 " fill="none" id="VerActuacionDev-backto-CrearActuacionDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="797.66,894.52,807.4566,893.5069,801.9959,892.0301,803.4727,886.5694,797.66,894.52" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="805.0669">Extend</text><!--MD5=[ae2594fd60c165faa0fcd4821fea2d6c]
+reverse link VerEstadoDev to AsignarEstadoDev--><path d="M1558.16,695 C1602.49,695 1660.42,695 1705.82,695 " fill="none" id="VerEstadoDev-backto-AsignarEstadoDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1553.1,695,1562.1,699,1558.1,695,1562.1,691,1553.1,695" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1624" y="691.0669">Extend</text><!--MD5=[dcb73fc115fb625a3d8f451aebdf4833]
+reverse link VerProxectoDev to VerEstadoDev--><path d="M531.44,912.8 C610.2,860.86 848.67,712.68 1072,666 C1205.92,638.01 1368.78,667.06 1445.1,684.25 " fill="none" id="VerProxectoDev-backto-VerEstadoDev" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="526.92,915.79,536.6299,914.1413,531.0846,913.0231,532.2028,907.4778,526.92,915.79" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="670.0669">Extend</text><!--MD5=[0484bd3eb37e47ede86a6b7029357b40]
+reverse link VerHProdutoDev to VerEstadoDev--><path d="M863.96,1075.13 C1001.19,1077.58 1247.24,1078.9 1282,1058 C1418.38,975.97 1472.7,767.74 1485.42,710.03 " fill="none" id="VerHProdutoDev-backto-VerEstadoDev" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="858.72,1075.03,867.6501,1079.1837,863.7193,1075.1157,867.7872,1071.1849,858.72,1075.03" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="1054.0669">Extend</text><!--MD5=[36ce65f26a4a9f419958562b27e5292e]
+reverse link VerActuacionDev to VerEstadoDev--><path d="M785.2,889 C804.36,860.39 842.71,809.79 889,784 C1065.94,685.42 1315.76,684.77 1428.8,690.51 " fill="none" id="VerActuacionDev-backto-VerEstadoDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="782.29,893.4,790.5896,888.0974,785.047,889.2288,783.9156,883.6862,782.29,893.4" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="687.0669">Extend</text><!--MD5=[5767799b256a0a21af4ff209cd220a87]
+reverse link VerEtapaDev to AsignarEtapaDev--><path d="M1177,988.77 C1177,974.58 1177,955.85 1177,942.55 " fill="none" id="VerEtapaDev-backto-AsignarEtapaDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1177,993.78,1181,984.78,1177,988.78,1173,984.78,1177,993.78" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1143.5" y="972.8169">Extend</text><!--MD5=[c4d17675c08f0b529d3eaa38a88b0f95]
+reverse link VerProxectoDev to VerEtapaDev--><path d="M562.53,941.8 C597.37,948.02 642.62,955.65 683,961 C840.71,981.91 1027.94,997.66 1119.66,1004.8 " fill="none" id="VerProxectoDev-backto-VerEtapaDev" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="557.47,940.89,565.6206,946.4188,562.3912,941.7744,567.0356,938.545,557.47,940.89" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="957.0669">Extend</text><!--MD5=[6e5f0ab2d72eb29e98efa0b48af02cd4]
+reverse link VerHProdutoDev to VerEtapaDev--><path d="M849.07,1060.79 C930.62,1047.87 1056.91,1027.87 1126.24,1016.88 " fill="none" id="VerHProdutoDev-backto-VerEtapaDev" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="843.76,1061.63,853.2692,1064.1943,848.7002,1060.859,852.0355,1056.29,843.76,1061.63" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1028.0669">Extend</text><!--MD5=[2e5b8602585ba1fbc212aa376fb041ae]
+reverse link VerActuacionDev to VerEtapaDev--><path d="M826.49,922.91 C881.06,935.89 967.41,956.56 1042,975 C1073.1,982.69 1108.21,991.61 1134.68,998.38 " fill="none" id="VerActuacionDev-backto-VerEtapaDev" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="821.31,921.68,829.1419,927.6517,826.1746,922.8355,830.9908,919.8682,821.31,921.68" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="936.0669">Extend</text><!--MD5=[6273066b29678107583a6a208605f43c]
+reverse link VerProxectoAdmin to CrearProxectoAdmin--><path d="M503.5,1384.11 C503.5,1398.5 503.5,1417.32 503.5,1430.8 " fill="none" id="VerProxectoAdmin-backto-CrearProxectoAdmin" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="503.5,1379.03,499.5,1388.03,503.5,1384.03,507.5,1388.03,503.5,1379.03" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="470" y="1409.5669">Extend</text><!--MD5=[963d98f1d6eb8557f6eb67e374e91e65]
+reverse link VerRepoAdmin to VerProxectoAdmin--><path d="M458.56,1585.23 C439.63,1577.65 419.02,1566.09 406,1549 C361.55,1490.64 330.1,1442.91 377,1386.5 C391.64,1368.89 414.83,1361.62 437.39,1359.22 " fill="none" id="VerRepoAdmin-backto-VerProxectoAdmin" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="463.33,1587.08,456.3701,1580.1115,458.6644,1585.2822,453.4937,1587.5765,463.33,1587.08" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="353" y="1399.5669">Extend</text><!--MD5=[bb43eb85f1172fadbcc104a7c202a3bd]
+reverse link VerRepoAdmin to VerHProdutoAdmin--><path d="M566.52,1596.6 C601.29,1595.81 645.21,1594.82 683.34,1593.96 " fill="none" id="VerRepoAdmin-backto-VerHProdutoAdmin" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="561.46,1596.71,570.5382,1600.5292,566.459,1596.61,570.3782,1592.5308,561.46,1596.71" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1591.0669">Extend</text><!--MD5=[ddcb6dd2a5479d884ce8770b691c7291]
+reverse link VerRepoAdmin to CrearRepoAdmin--><path d="M503.5,1577.92 C503.5,1563.61 503.5,1544.65 503.5,1531.5 " fill="none" id="VerRepoAdmin-backto-CrearRepoAdmin" style="stroke:#FF4500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="503.5,1582.96,507.5,1573.96,503.5,1577.96,499.5,1573.96,503.5,1582.96" style="stroke:#FF4500;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="470" y="1561.8169">Extend</text><!--MD5=[7f3c2656d86c5d1601ffb3a7606ff2eb]
+reverse link VerProxectoAdmin to VerHProdutoAdmin--><path d="M538.9,1380.01 C552.51,1388.28 567.21,1399.4 577,1413 C605.11,1452.04 575.64,1480.52 607,1517 C633.3,1547.59 674.7,1566.42 709.2,1577.56 " fill="none" id="VerProxectoAdmin-backto-VerHProdutoAdmin" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="534.34,1377.31,540.0507,1385.3342,538.6438,1379.8551,544.1229,1378.4481,534.34,1377.31" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1513.0669">Extend</text><!--MD5=[f1abdd54f3e84fbbbcb8f7560542644f]
+reverse link VerProxectoAdmin to VerActuacionAdmin--><path d="M553.61,1376.35 C570.47,1380.7 589.49,1385.34 607,1389 C640.97,1396.11 679.24,1402.53 710.16,1407.32 " fill="none" id="VerProxectoAdmin-backto-VerActuacionAdmin" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="548.46,1375.02,556.1618,1381.1586,553.2987,1376.2798,558.1775,1373.4166,548.46,1375.02" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1385.0669">Extend</text><!--MD5=[4e324ea4c6334118e5ee3f96921977e9]
+reverse link VerEstadoAdmin to CrearEstadoAdmin--><path d="M1558.37,1400 C1604.55,1400 1665.39,1400 1711.49,1400 " fill="none" id="VerEstadoAdmin-backto-CrearEstadoAdmin" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1553.1,1400,1562.1,1404,1558.1,1400,1562.1,1396,1553.1,1400" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1624" y="1396.0669">Extend</text><!--MD5=[fc1d2a0bd7da8ea70bfd4438126bd378]
+reverse link VerProxectoAdmin to VerEstadoAdmin--><path d="M576.87,1362.78 C714.38,1362.76 1022.85,1364.64 1282,1380 C1332.88,1383.02 1390.6,1388.81 1432.06,1393.39 " fill="none" id="VerProxectoAdmin-backto-VerEstadoAdmin" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="571.65,1362.78,580.65,1366.78,576.65,1362.78,580.65,1358.78,571.65,1362.78" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1362.0669">Extend</text><!--MD5=[b40e60f0ac5c6f82ca1ed2120c739aa5]
+reverse link VerHProdutoAdmin to VerEstadoAdmin--><path d="M827.07,1609.87 C923.7,1638 1128.12,1682.98 1282,1617 C1381.89,1574.16 1456.32,1456.64 1480.28,1414.93 " fill="none" id="VerHProdutoAdmin-backto-VerEstadoAdmin" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="821.99,1608.37,829.4925,1614.7506,826.7861,1609.7831,831.7536,1607.0768,821.99,1608.37" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="1613.0669">Extend</text><!--MD5=[d21b3c1e808417639000ac5b17d2c4bb]
+reverse link VerActuacionAdmin to VerEstadoAdmin--><path d="M847.41,1414.32 C989.59,1411.14 1294.79,1404.33 1426.21,1401.39 " fill="none" id="VerActuacionAdmin-backto-VerEstadoAdmin" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="842.01,1414.44,851.0884,1418.2587,847.009,1414.3397,850.928,1410.2603,842.01,1414.44" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="1401.0669">Extend</text><!--MD5=[b0939c36ce2fc646d4a36583d0d9ed0b]
+reverse link VerEtapaAdmin to CrearEtapaAdmin--><path d="M1177,1547.92 C1177,1533.61 1177,1514.65 1177,1501.5 " fill="none" id="VerEtapaAdmin-backto-CrearEtapaAdmin" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1177,1552.96,1181,1543.96,1177,1547.96,1173,1543.96,1177,1552.96" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1143.5" y="1531.8169">Extend</text><!--MD5=[d5067b4ad4c0e45506500bebadeb2e3b]
+reverse link VerProxectoAdmin to VerEtapaAdmin--><path d="M529.66,1381.25 C563.06,1404.61 624.64,1444.71 683,1467 C764.41,1498.09 1018.34,1542.06 1126.46,1559.96 " fill="none" id="VerProxectoAdmin-backto-VerEtapaAdmin" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="525.34,1378.21,530.4173,1386.6493,529.4355,1381.0783,535.0065,1380.0965,525.34,1378.21" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="1463.0669">Extend</text><!--MD5=[0e2ef1e080192c1fe3eeca9d6edd8e73]
+reverse link VerHProdutoAdmin to VerEtapaAdmin--><path d="M861.81,1586.66 C940.28,1582 1051.82,1575.38 1118.74,1571.4 " fill="none" id="VerHProdutoAdmin-backto-VerEtapaAdmin" style="stroke:#BDB76B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#BDB76B" points="856.69,1586.97,865.914,1590.4222,861.681,1586.6697,865.4335,1582.4367,856.69,1586.97" style="stroke:#BDB76B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1573.0669">Extend</text><!--MD5=[c19dc5743267faa93d23ac96b450dacf]
+reverse link VerActuacionAdmin to VerEtapaAdmin--><path d="M834.39,1426.48 C902.95,1438.82 1007.88,1460.39 1042,1482 C1059.88,1493.33 1055.34,1505.94 1072,1519 C1092.58,1535.13 1119.33,1547.58 1140.55,1555.9 " fill="none" id="VerActuacionAdmin-backto-VerEtapaAdmin" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="829.11,1425.54,837.2606,1431.0688,834.0312,1426.4244,838.6756,1423.195,829.11,1425.54" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1435.0669">Extend</text><!--MD5=[add663d60964291d43ab67c96f42e698]
+reverse link VerProxectoValidador to ValidarProxectoValidador--><path d="M556.15,1884.28 C572.41,1880.31 590.45,1875.94 607,1872 C714.7,1846.36 840.89,1817.29 910.86,1801.26 " fill="none" id="VerProxectoValidador-backto-ValidarProxectoValidador" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="551.16,1885.5,560.8519,1887.2515,556.0174,1884.3142,558.9546,1879.4797,551.16,1885.5" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1859.0669">Extend</text><!--MD5=[2da568f4d3cc8ff32ab91a3dbb1bddfa]
+reverse link VerProxectoValidador to RexeitarProxectoValidador--><path d="M524.43,1916.36 C574.08,1964.62 702.81,2089.7 751.22,2136.75 " fill="none" id="VerProxectoValidador-backto-RexeitarProxectoValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="520.71,1912.75,524.3752,1921.8915,524.2952,1916.2352,529.9515,1916.1552,520.71,1912.75" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1999.0669">Extend</text><!--MD5=[e687ad72b732ecfcfaef28dd6739954f]
+reverse link VerProxectoValidador to VerHProdutoValidador--><path d="M577.02,1897 C609.65,1897 648.43,1897 682.64,1897 " fill="none" id="VerProxectoValidador-backto-VerHProdutoValidador" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="571.84,1897,580.84,1901,576.84,1897,580.84,1893,571.84,1897" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1893.0669">Extend</text><!--MD5=[702b189cde81e47cd62ab7b630c4316a]
+reverse link VerHProdutoValidador to ValidarHProdutoValidador--><path d="M856.59,1888 C924.56,1880.76 1019.69,1870.64 1088.44,1863.32 " fill="none" id="VerHProdutoValidador-backto-ValidarHProdutoValidador" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="851.34,1888.56,860.7125,1891.586,856.312,1888.0314,859.8667,1883.6309,851.34,1888.56" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1866.0669">Extend</text><!--MD5=[179c41c4c3c39e068a23c402dfe68460]
+reverse link VerHProdutoValidador to RexeitarHProdutoValidador--><path d="M839.27,1911.96 C855.48,1915.08 872.8,1918.02 889,1920 C950.28,1927.48 1019.38,1931 1074.42,1932.64 " fill="none" id="VerHProdutoValidador-backto-RexeitarHProdutoValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="834.27,1910.98,842.3393,1916.6268,839.1778,1911.9359,843.8687,1908.7744,834.27,1910.98" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="1916.0669">Extend</text><!--MD5=[2a27019304fda1d15a56a6a2a1756eac]
+reverse link VerProxectoValidador to VerActuacionValidador--><path d="M541.94,1913.08 C593.77,1935.33 686.6,1975.19 736.34,1996.55 " fill="none" id="VerProxectoValidador-backto-VerActuacionValidador" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="537.06,1910.98,543.7566,1918.2019,541.6557,1912.9496,546.908,1910.8487,537.06,1910.98" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="608" y="1940.0669">Extend</text><!--MD5=[71e722cf9a3de7e489fb2bb14835f5c3]
+reverse link VerActuacionValidador to ValidarActuacionValidador--><path d="M847.44,2011 C918.71,2011 1025.19,2011 1097.46,2011 " fill="none" id="VerActuacionValidador-backto-ValidarActuacionValidador" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="842.37,2011,851.37,2015,847.37,2011,851.37,2007,842.37,2011" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="2007.0669">Extend</text><!--MD5=[440f59c1c061ecc3261b19055ba9877a]
+reverse link VerActuacionValidador to RexeitarActuacionValidador--><path d="M828.22,2023.55 C847.46,2027.7 869.14,2032.22 889,2036 C963.32,2050.15 1048.89,2064.17 1107.13,2073.37 " fill="none" id="VerActuacionValidador-backto-RexeitarActuacionValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="822.87,2022.39,830.8205,2028.2029,827.7569,2023.4474,832.5124,2020.3838,822.87,2022.39" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="2032.0669">Extend</text><!--MD5=[f80993b66aa8fd99a9466c24730994d0]
+reverse link ValidarProxectoValidador to PecharEtapa--><path d="M1046.02,1792.83 C1109.98,1796.5 1202.04,1803.12 1282,1814 C1335.91,1821.33 1397.02,1833.68 1438.69,1842.72 " fill="none" id="ValidarProxectoValidador-backto-PecharEtapa" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1040.7,1792.52,1049.4564,1797.0284,1045.6918,1792.8061,1049.9141,1789.0415,1040.7,1792.52" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="1791.0669">Extend</text><!--MD5=[740322f88752c7a9c297f4bb796d6f52]
+reverse link ValidarHProdutoValidador to PecharEtapa--><path d="M1279.81,1854 C1325.64,1854 1378.54,1854 1419.61,1854 " fill="none" id="ValidarHProdutoValidador-backto-PecharEtapa" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1274.54,1854,1283.54,1858,1279.54,1854,1283.54,1850,1274.54,1854" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="1850.0669">Extend</text><!--MD5=[69bcff5934eb3c9c2331d555b10d8dd8]
+reverse link ValidarActuacionValidador to PecharEtapa--><path d="M1230.46,1994.45 C1247.2,1988.62 1265.61,1981.6 1282,1974 C1351.22,1941.91 1427.61,1893.96 1465.11,1869.52 " fill="none" id="ValidarActuacionValidador-backto-PecharEtapa" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1225.33,1996.22,1235.1443,1997.0448,1230.0531,1994.5791,1232.5188,1989.4879,1225.33,1996.22" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="1931.0669">Extend</text><!--MD5=[faca845d89cdde21971e459f90a27a4c]
+reverse link RexeitarProxectoValidador to CrearHProdutoValidador--><path d="M848.08,2164.24 C981.8,2180.48 1258.25,2214.04 1400.18,2231.28 " fill="none" id="RexeitarProxectoValidador-backto-CrearHProdutoValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="842.99,2163.62,851.4298,2168.6964,847.952,2164.2349,852.4136,2160.7572,842.99,2163.62" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="2189.0669">Extend</text><!--MD5=[6a0fb647eb28db199d81b4cc154d0378]
+reverse link RexeitarProxectoValidador to CrearActuacionValidador--><path d="M856.62,2157.57 C958.2,2159.38 1133.46,2158.43 1282,2137 C1337.32,2129.02 1399.22,2112.02 1440.7,2099.41 " fill="none" id="RexeitarProxectoValidador-backto-CrearActuacionValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="851.54,2157.48,860.4701,2161.6337,856.5393,2157.5657,860.6072,2153.6349,851.54,2157.48" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1155" y="2133.0669">Extend</text><!--MD5=[102aa431b6ef4f38d52986edb6f9549d]
+reverse link RexeitarHProdutoValidador to CrearActuacionValidador--><path d="M1235.79,1955.48 C1250.96,1961.47 1267.22,1968.21 1282,1975 C1345.73,2004.27 1417.63,2043.76 1457.55,2066.29 " fill="none" id="RexeitarHProdutoValidador-backto-CrearActuacionValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="1231.12,1953.64,1238.0355,1960.6526,1235.7741,1955.4674,1240.9593,1953.206,1231.12,1953.64" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="1988.0669">Extend</text><!--MD5=[4bf802dad9d7885a373566e67f1f8c86]
+reverse link RexeitarActuacionValidador to CrearActuacionValidador--><path d="M1266.28,2084 C1310.5,2084 1363.69,2084 1406.94,2084 " fill="none" id="RexeitarActuacionValidador-backto-CrearActuacionValidador" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="1261.21,2084,1270.21,2088,1266.21,2084,1270.21,2080,1261.21,2084" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="2080.0669">Extend</text><!--MD5=[9158ca5b948c0e2e0696f885563b338b]
+reverse link VerProxectoOwner to VerHProdutoOwner--><path d="M575.78,234.24 C647.76,238.4 761.86,247.42 859,266 C956.15,284.58 1066.54,319.52 1128.05,340.28 " fill="none" id="VerProxectoOwner-backto-VerHProdutoOwner" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="570.67,233.95,579.4264,238.4584,575.6618,234.2361,579.8841,230.4715,570.67,233.95" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="239.0669">Extend</text><!--MD5=[75350f6f1654494c5629682504a4642e]
+reverse link VerHProdutoOwner to CrearHProdutoOwner--><path d="M1257.31,368.05 C1275.26,370.11 1294.26,371.94 1312,373 C1332.41,374.21 1337.56,373.23 1358,373 C1367.86,372.89 1378.13,372.73 1388.4,372.54 " fill="none" id="VerHProdutoOwner-backto-CrearHProdutoOwner" style="stroke:#FF0000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF0000" points="1252.28,367.46,1260.7644,372.4616,1257.2473,368.031,1261.6779,364.5139,1252.28,367.46" style="stroke:#FF0000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="369.0669">Extend</text><!--MD5=[36e60852df10cd5e43db0039ddfc155d]
+reverse link VerHProdutoOwner to VerActuacionOwner--><path d="M1177,331.34 C1177,316.65 1177,298.64 1177,285.76 " fill="none" id="VerHProdutoOwner-backto-VerActuacionOwner" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1177,336.59,1181,327.59,1177,331.59,1173,327.59,1177,336.59" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1143.5" y="315.8169">Extend</text><!--MD5=[9277cc1c3329d6f40010c833040c106d]
+reverse link VerProxectoOwner to VerActuacionOwner--><path d="M531.55,212.99 C551.62,200.39 580.05,184.07 607,174 C639.34,161.92 648.67,161.57 683,158 C760.8,149.9 781.88,144.89 859,158 C967.94,176.52 1089.29,228.44 1144.99,254.17 " fill="none" id="VerProxectoOwner-backto-VerActuacionOwner" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="527.15,215.78,536.8952,214.3548,531.3771,213.1095,532.6224,207.5914,527.15,215.78" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="146.0669">Extend</text><!--MD5=[c9a6ab65c146fcb54bd5937728d1ded4]
+reverse link VerActuacionOwner to CrearActuacionOwner--><path d="M1177,247.21 C1177,233.05 1177,214.75 1177,201.15 " fill="none" id="VerActuacionOwner-backto-CrearActuacionOwner" style="stroke:#008000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#008000" points="1177,252.23,1181,243.23,1177,247.23,1173,243.23,1177,252.23" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1143.5" y="231.3169">Extend</text><!--MD5=[bfca018ad3763186fac929e21eef4393]
+reverse link VerProxectoOwner to VerComentarioOwner--><path d="M525.62,212.07 C557.14,185.41 619.58,138.54 683,125 C796.83,100.7 1180.53,116.89 1282,145 C1354.17,164.99 1429.28,213.59 1465.81,239.34 " fill="none" id="VerProxectoOwner-backto-VerComentarioOwner" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="521.57,215.53,531.0126,212.7304,525.3733,212.2843,525.8194,206.6451,521.57,215.53" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="943.5" y="110.0669">Extend</text><!--MD5=[aaae1f2beebbd95da6226d50a5cb3584]
+reverse link VerComentarioOwner to CrearComentarioOwner--><path d="M1570.51,256 C1610.51,256 1658.8,256 1698.83,256 " fill="none" id="VerComentarioOwner-backto-CrearComentarioOwner" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="1565.17,256,1574.17,260,1570.17,256,1574.17,252,1565.17,256" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1624" y="252.0669">Extend</text><!--MD5=[e34340337aae9c22350e7d1ae0da74ec]
+reverse link VerHProdutoOwner to VerComentarioOwner--><path d="M1233.25,339.03 C1293.72,319.36 1389.43,288.23 1444.86,270.19 " fill="none" id="VerHProdutoOwner-backto-VerComentarioOwner" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="1228.23,340.66,1238.025,341.6883,1232.9861,339.1175,1235.557,334.0786,1228.23,340.66" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="297.0669">Extend</text><!--MD5=[3b127b78edd96ff056075e954dda7333]
+reverse link VerActuacionOwner to VerComentarioOwner--><path d="M1251.93,265.9 C1301.21,263.84 1365.71,261.14 1414.91,259.08 " fill="none" id="VerActuacionOwner-backto-VerComentarioOwner" style="stroke:#FF00FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF00FF" points="1246.91,266.11,1256.0735,269.7198,1251.9054,265.8953,1255.7299,261.7272,1246.91,266.11" style="stroke:#FF00FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1313" y="258.0669">Extend</text><!--MD5=[5a0aa35586550e1eacd68456a57aa641]
+reverse link VerEtapaOwner to VerProxectoOwner--><path d="M449.28,496.83 C423.56,497.72 394.66,493.3 377,473.5 C368.58,464.06 327.92,388.01 406,281 C419.01,263.17 440.25,251.24 459.58,243.51 " fill="none" id="VerEtapaOwner-backto-VerProxectoOwner" style="stroke:#00BFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00BFFF" points="454.38,496.59,445.1965,493.0313,449.3859,496.8326,445.5847,501.0219,454.38,496.59" style="stroke:#00BFFF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="353" y="469.5669">Extend</text><!--MD5=[a3b8bd0fc058e45d78e8c50b49b55445]
+reverse link VerEtapaOwner to VerHProdutoOwner--><path d="M555.22,498.47 C624.68,510.96 752.87,527.41 859,504 C971.85,479.11 1092.29,409.86 1146.53,376.06 " fill="none" id="VerEtapaOwner-backto-VerHProdutoOwner" style="stroke:#00BFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00BFFF" points="549.91,497.5,558.0422,503.0559,554.8282,498.4007,559.4833,495.1867,549.91,497.5" style="stroke:#00BFFF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="500.0669">Extend</text><!--MD5=[0187c9ea3f09329c0ead835f5c1a2bb9]
+reverse link VerEtapaOwner to VerActuacionOwner--><path d="M545.46,474.64 C665.44,435.51 1015.18,321.45 1135.09,282.34 " fill="none" id="VerEtapaOwner-backto-VerActuacionOwner" style="stroke:#00BFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00BFFF" points="540.6,476.23,550.3978,477.2318,545.3519,474.6746,547.9091,469.6287,540.6,476.23" style="stroke:#00BFFF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="371.0669">Extend</text><!--MD5=[c775ed880f324155c67315fb4b3de23d]
+reverse link VerEstadoOwner to VerProxectoOwner--><path d="M503.5,293.74 C503.5,279.45 503.5,260.57 503.5,247.26 " fill="none" id="VerEstadoOwner-backto-VerProxectoOwner" style="stroke:#006400;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#006400" points="503.5,298.78,507.5,289.78,503.5,293.78,499.5,289.78,503.5,298.78" style="stroke:#006400;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="470" y="277.5669">Extend</text><!--MD5=[6ad904031d56ed00c86b189f18a08d69]
+reverse link VerEstadoOwner to VerHProdutoOwner--><path d="M567.74,320.21 C601.85,323.42 644.71,327.24 683,330 C825.78,340.31 992.07,348.66 1090.44,353.22 " fill="none" id="VerEstadoOwner-backto-VerHProdutoOwner" style="stroke:#006400;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#006400" points="562.34,319.7,570.9235,324.5295,567.3178,320.1707,571.6766,316.565,562.34,319.7" style="stroke:#006400;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="326.0669">Extend</text><!--MD5=[c1c0fc3c454f098fe2ccc376e2bbb366]
+reverse link VerEstadoOwner to VerActuacionOwner--><path d="M569.91,309.62 C697.66,301.06 979.15,282.19 1108.54,273.52 " fill="none" id="VerEstadoOwner-backto-VerActuacionOwner" style="stroke:#006400;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#006400" points="564.68,309.97,573.9332,313.3431,569.6682,309.627,573.3844,305.362,564.68,309.97" style="stroke:#006400;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="749" y="287.0669">Extend</text><!--MD5=[c38d1933a97f7c6cc0637613dca4960c]
+reverse link owner to Validador--><path d="M186.26,610.66 C178.18,620.87 170.88,632.39 166.5,644.5 C134.6,732.69 155.73,973.34 166.5,1066.5 C175.87,1147.56 200.89,1239.85 216.13,1291.18 " fill="none" id="owner-backto-Validador" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="181.29,605.71,199.76,595.33,191.8,614.96,181.29,605.71" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[3430b7b650ce8653656d1a2cb962d283]
+reverse link owner to dev--><path d="M228.5,629.66 C228.5,634.56 228.5,639.47 228.5,644.37 " fill="none" id="owner-backto-dev" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="221.5,629.51,228.5,609.51,235.5,629.51,221.5,629.51" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5655c1e1baeb0fcc140929c06836ff4c]
+reverse link dev to admin--><path d="M228.5,743.8 C228.5,825.03 228.5,906.25 228.5,987.47 " fill="none" id="dev-backto-admin" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="221.5,743.71,228.5,723.71,235.5,743.71,221.5,743.71" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[6e6b7891f02bb895fd4e993ea0f1f98f]
+link Comercial to owner--><path d="M74.34,570 C103.6,570 146.49,570 179.45,570 " fill="none" id="Comercial-to-owner" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="179.91,563,199.91,570,179.91,577,179.91,563" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[49c7e9bd45b1abed8288cc03d445ec20]
+link Validador to VerProxectoValidador--><path d="M248.7,1370.8 C303.37,1484.16 458.32,1805.41 494.76,1880.95 " fill="none" id="Validador-VerProxectoValidador" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5e9231cff64c4760a6ef3309ece90ec3]
+link owner to VerProxectoOwner--><path d="M245.38,530.3 C271.23,469.88 327.52,354.16 406,281 C423.11,265.05 446.29,252.82 465.64,244.45 " fill="none" id="owner-VerProxectoOwner" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[1b3d97f459114b638875639ed11b75c1]
+link dev to VerProxectoDev--><path d="M250.67,644.44 C253.8,638.6 256.98,632.64 260,627 C306.23,540.58 326.55,387.91 398,455 C408.31,464.68 403.66,568.06 406,582 C428.01,713.12 479.52,865.8 496.76,914.92 " fill="none" id="dev-VerProxectoDev" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[bd31eadd5f899f5f92104835403611b0]
+link admin to VerProxectoAdmin--><path d="M257.06,1021.06 C295.02,1014.67 362.7,1010.12 398,1049 C415.79,1068.59 394.05,1263.39 406,1287 C420.16,1314.97 449.88,1335.88 472.62,1348.61 " fill="none" id="admin-VerProxectoAdmin" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5c0c2f5798c71050359faa794b375395]
+link admin to CrearProxectoAdmin--><path d="M230.09,1066.75 C233.51,1144.69 252.56,1318.07 352,1411 C373.23,1430.84 403.34,1440.53 431.05,1445.09 " fill="none" id="admin-CrearProxectoAdmin" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[0a70643dd569df8b11581de6bed091f0]
+@startuml
+
+left to right direction
+
+!include casos_uso_dev.puml
+!include casos_uso_admin.puml
+!include casos_uso_validador.puml
+!include casos_uso_propietario.puml
+
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+' Herencias
+owner <|- Validador
+owner <|- dev
+dev <|- admin
+Comercial - - -|> owner
+
+' Relacións
+Validador - - - VerProxectoValidador
+owner - - - VerProxectoOwner
+dev - - - VerProxectoDev
+admin - - - VerProxectoAdmin
+admin - - - CrearProxectoAdmin
+
+@enduml
+
+@startuml
+
+left to right direction
+
+
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+
+rectangle "Desenvolvedores" {
+    usecase "Ver Proxecto" as VerProxectoDev #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoDev #Khaki
+    usecase "Modificar Historia Produto" as ModificarHProdutoDev #Khaki
+    usecase "Crear Historia Produto" as CrearHProdutoDev #Khaki
+
+    usecase "Ver Actuación" as VerActuacionDev #LightGreen
+    usecase "Modificar Actuación" as ModificarActuacionDev #LightGreen
+    usecase "Crear Actuación" as CrearActuacionDev #LightGreen
+
+    usecase "Ver Estado" as VerEstadoDev #LimeGreen
+    usecase "Asignar Estado" as AsignarEstadoDev #LimeGreen
+
+    usecase "Ver Repo" as VerRepoDev #GhostWhite
+    usecase "Asignar Repo" as AsignarRepoDev #GhostWhite
+
+    usecase "Ver Etapa" as VerEtapaDev #LightCyan
+    usecase "Asignar Etapa" as AsignarEtapaDev #LightCyan
+}
+
+VerRepoDev <. VerProxectoDev #OrangeRed : Extend
+VerRepoDev <. VerHProdutoDev #OrangeRed : Extend
+VerRepoDev <. AsignarRepoDev #OrangeRed : Extend
+
+VerProxectoDev <.. VerHProdutoDev : Extend
+VerHProdutoDev <.. ModificarHProdutoDev #DarkKhaki : Extend
+VerHProdutoDev <.. CrearHProdutoDev #DarkKhaki : Extend
+VerHProdutoDev <. VerActuacionDev #Fuchsia : Extend
+
+VerProxectoDev <.. VerActuacionDev : Extend
+VerActuacionDev <.. ModificarActuacionDev #Green : Extend
+VerActuacionDev <.. CrearActuacionDev #Green : Extend
+
+VerEstadoDev <.. AsignarEstadoDev #Green : Extend
+
+VerProxectoDev <... VerEstadoDev #Blue : Extend
+VerHProdutoDev <... VerEstadoDev #DarkKhaki : Extend
+VerActuacionDev <... VerEstadoDev #Green : Extend
+
+VerEtapaDev <. AsignarEtapaDev #Green : Extend
+
+VerProxectoDev <.. VerEtapaDev #Blue : Extend
+VerHProdutoDev <.. VerEtapaDev #DarkKhaki : Extend
+VerActuacionDev <.. VerEtapaDev #Green : Extend
+
+
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+
+rectangle "Administradores" {
+    usecase "Ver Proxecto" as VerProxectoAdmin #LightSteelBlue
+    usecase "Crear Proxecto" as CrearProxectoAdmin #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoAdmin #Khaki
+
+    usecase "Ver Actuación" as VerActuacionAdmin #LightGreen
+
+    usecase "Ver Estado" as VerEstadoAdmin #LimeGreen
+    usecase "Crear Estado" as CrearEstadoAdmin #LimeGreen
+
+    usecase "Ver Repo" as VerRepoAdmin #GhostWhite
+    usecase "Crear Repo" as CrearRepoAdmin #GhostWhite
+
+    usecase "Ver Etapa" as VerEtapaAdmin #LightCyan
+    usecase "Crear Etapa" as CrearEtapaAdmin #LightCyan
+}
+
+VerProxectoAdmin <. CrearProxectoAdmin : Extend
+
+VerRepoAdmin <. VerProxectoAdmin #OrangeRed : Extend
+VerRepoAdmin <. VerHProdutoAdmin #OrangeRed : Extend
+VerRepoAdmin <. CrearRepoAdmin #OrangeRed : Extend
+
+VerProxectoAdmin <.. VerHProdutoAdmin : Extend
+
+VerProxectoAdmin <.. VerActuacionAdmin : Extend
+
+VerEstadoAdmin <.. CrearEstadoAdmin #Green : Extend
+
+VerProxectoAdmin <... VerEstadoAdmin #Blue : Extend
+VerHProdutoAdmin <... VerEstadoAdmin #DarkKhaki : Extend
+VerActuacionAdmin <... VerEstadoAdmin #Green : Extend
+
+VerEtapaAdmin <. CrearEtapaAdmin #Green : Extend
+
+VerProxectoAdmin <.. VerEtapaAdmin #Blue : Extend
+VerHProdutoAdmin <.. VerEtapaAdmin #DarkKhaki : Extend
+VerActuacionAdmin <.. VerEtapaAdmin #Green : Extend
+
+
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+
+rectangle "Validadores" {
+    usecase "Ver Proxecto" as VerProxectoValidador #LightSteelBlue
+    usecase "Validar Proxecto" as ValidarProxectoValidador #LightSteelBlue
+    usecase "Rexeitar Proxecto" as RexeitarProxectoValidador #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoValidador #Khaki
+    usecase "Validar Historia Produto" as ValidarHProdutoValidador #Khaki
+    usecase "Rexeitar Historia Produto" as RexeitarHProdutoValidador #Khaki
+    usecase "Solicitar Historia Produto" as CrearHProdutoValidador #Khaki
+
+    usecase "Ver Actuación" as VerActuacionValidador #LightGreen
+    usecase "Validar Actuación" as ValidarActuacionValidador #LightGreen
+    usecase "Rexeitar Actuación" as RexeitarActuacionValidador #LightGreen
+    usecase "Solicitar Actuación" as CrearActuacionValidador #LightGreen
+
+    usecase "Pechar Etapa" as PecharEtapa #LightCyan
+}
+
+
+VerProxectoValidador <.. ValidarProxectoValidador #Green : Extend
+VerProxectoValidador <.. RexeitarProxectoValidador #Red : Extend
+
+VerProxectoValidador <.. VerHProdutoValidador : Extend
+VerHProdutoValidador <.. ValidarHProdutoValidador #Green : Extend
+VerHProdutoValidador <.. RexeitarHProdutoValidador #Red: Extend
+
+VerProxectoValidador <.. VerActuacionValidador : Extend
+VerActuacionValidador <.. ValidarActuacionValidador #Green : Extend
+VerActuacionValidador <.. RexeitarActuacionValidador #Red : Extend
+
+ValidarProxectoValidador <.. PecharEtapa #Green : Extend
+ValidarHProdutoValidador <.. PecharEtapa #Green : Extend
+ValidarActuacionValidador <.. PecharEtapa #Green : Extend
+
+RexeitarProxectoValidador <... CrearHProdutoValidador #Red : Extend
+RexeitarProxectoValidador <... CrearActuacionValidador #Red : Extend
+RexeitarHProdutoValidador <.. CrearActuacionValidador #Red : Extend
+RexeitarActuacionValidador <.. CrearActuacionValidador #Red : Extend
+
+
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+}
+
+
+rectangle "Propietarios Produto" {
+    usecase "Ver Proxecto" as VerProxectoOwner #LightSteelBlue
+
+    usecase "Ver Comentario" as VerComentarioOwner #LightGrey
+    usecase "Crear Comentario" as CrearComentarioOwner #LightGrey
+
+    usecase "Ver Historia Produto" as VerHProdutoOwner #Khaki
+    usecase "Solicitar Historia Produto" as CrearHProdutoOwner #Khaki
+
+    usecase "Ver Actuación" as VerActuacionOwner #LightGreen
+    usecase "Solicitar Actuación" as CrearActuacionOwner #LightGreen
+
+    usecase "Ver Etapa" as VerEtapaOwner #LightCyan
+    usecase "Ver Estado" as VerEstadoOwner #LimeGreen
+}
+
+
+VerProxectoOwner <... VerHProdutoOwner #Red : Extend
+VerHProdutoOwner <.. CrearHProdutoOwner #Red : Extend
+VerHProdutoOwner <. VerActuacionOwner #Green : Extend
+
+VerProxectoOwner <... VerActuacionOwner #Green : Extend
+VerActuacionOwner <. CrearActuacionOwner #Green : Extend
+
+VerProxectoOwner <.. VerComentarioOwner #Blue : Extend
+
+VerComentarioOwner <.. CrearComentarioOwner #Blue: Extend
+VerHProdutoOwner <.. VerComentarioOwner #Black : Extend
+VerActuacionOwner <.. VerComentarioOwner #Magenta : Extend
+
+VerEtapaOwner <. VerProxectoOwner #00bfff : Extend
+VerEtapaOwner <. VerHProdutoOwner #00bfff : Extend
+VerEtapaOwner <. VerActuacionOwner #00bfff : Extend
+
+VerEstadoOwner <. VerProxectoOwner #DarkGreen : Extend
+VerEstadoOwner <. VerHProdutoOwner #DarkGreen : Extend
+VerEstadoOwner <. VerActuacionOwner #DarkGreen : Extend
+
+
+
+owner <|- Validador
+owner <|- dev
+dev <|- admin
+Comercial - - -|> owner
+
+Validador - - - VerProxectoValidador
+owner - - - VerProxectoOwner
+dev - - - VerProxectoDev
+admin - - - VerProxectoAdmin
+admin - - - CrearProxectoAdmin
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: gl
+Country: ES
+--></g></svg>

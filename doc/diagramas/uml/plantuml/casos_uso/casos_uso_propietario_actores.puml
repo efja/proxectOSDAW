@@ -1,0 +1,14 @@
+@startuml
+
+!include casos_uso_propietario.puml
+
+' Actores
+actor "Propietario Produto" as owner
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+owner -- VerProxectoOwner
+
+@enduml
+

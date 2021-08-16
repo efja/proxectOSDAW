@@ -1,0 +1,17 @@
+@startuml
+
+!include casos_uso_admin.puml
+
+' Actores
+actor "Desenvolvedor" as dev
+actor "Administrador" as admin
+
+' ######################################################################################
+' ## Relacións Actores
+' ######################################################################################
+dev <|- admin
+admin -- VerProxectoAdmin
+admin -- CrearProxectoAdmin
+
+@enduml
+

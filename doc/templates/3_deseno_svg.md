@@ -2,17 +2,19 @@
 
 > Os diagramas deste documento están en formato `svg`.
 >
-> Para ver os diagramas integrados no documento MD podes atopalos no apartado [3. deseño][desenho] desta documentación, os diagramas nese apartada están escrito na linguaxe `plantuml`.
+> No apartado [3. deseño][desenho] desta documentación pódense ver os diagramas escritos na linguaxe `plantuml`.
 
 ## Modelo conceptual do dominio da aplicación
 
 ![clases-main]
 
+<div style="page-break-after: always;"></div>
+
 ## Casos de uso
 
-Descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso.
+![casos-uso]
 
-// TODO:
+<div style="page-break-after: always;"></div>
 
 ## Deseño de interface de usuarios
 
@@ -74,3 +76,5 @@ Poderedes entregar a captura do phpMyAdmin se empregades MariaDB como Modelo rel
 
    <!-- DIAGRAMAS -->
    [clases-main]: <../diagramas/uml/svg/clases/00_main.svg>
+
+   [casos-uso]: <../diagramas/uml/svg/casos_uso/casos_uso.svg>

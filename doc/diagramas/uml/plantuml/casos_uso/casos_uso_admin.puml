@@ -1,0 +1,75 @@
+@startuml
+
+' ######################################################################################
+' ## Estilos
+' ######################################################################################
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+' ######################################################################################
+' ## Diagrama
+' ######################################################################################
+
+rectangle "Administradores" {
+    ' Casos de uso
+    usecase "Ver Proxecto" as VerProxectoAdmin #LightSteelBlue
+    usecase "Crear Proxecto" as CrearProxectoAdmin #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoAdmin #Khaki
+
+    usecase "Ver Actuación" as VerActuacionAdmin #LightGreen
+
+    usecase "Ver Estado" as VerEstadoAdmin #LimeGreen
+    usecase "Crear Estado" as CrearEstadoAdmin #LimeGreen
+
+    usecase "Ver Repo" as VerRepoAdmin #GhostWhite
+    usecase "Crear Repo" as CrearRepoAdmin #GhostWhite
+
+    usecase "Ver Etapa" as VerEtapaAdmin #LightCyan
+    usecase "Crear Etapa" as CrearEtapaAdmin #LightCyan
+}
+
+' ######################################################################################
+' ## Relacións Casos de uso
+' ######################################################################################
+' Proxecto
+VerProxectoAdmin <. CrearProxectoAdmin : Extend
+
+' Repos
+VerRepoAdmin <. VerProxectoAdmin #OrangeRed : Extend
+VerRepoAdmin <. VerHProdutoAdmin #OrangeRed : Extend
+VerRepoAdmin <. CrearRepoAdmin #OrangeRed : Extend
+
+' Historias Produto
+VerProxectoAdmin <.. VerHProdutoAdmin : Extend
+
+' Actuacións
+VerProxectoAdmin <.. VerActuacionAdmin : Extend
+
+' Estados
+VerEstadoAdmin <.. CrearEstadoAdmin #Green : Extend
+
+VerProxectoAdmin <... VerEstadoAdmin #Blue : Extend
+VerHProdutoAdmin <... VerEstadoAdmin #DarkKhaki : Extend
+VerActuacionAdmin <... VerEstadoAdmin #Green : Extend
+
+' Estapas
+VerEtapaAdmin <. CrearEtapaAdmin #Green : Extend
+
+VerProxectoAdmin <.. VerEtapaAdmin #Blue : Extend
+VerHProdutoAdmin <.. VerEtapaAdmin #DarkKhaki : Extend
+VerActuacionAdmin <.. VerEtapaAdmin #Green : Extend
+
+@enduml
+

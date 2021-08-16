@@ -1,0 +1,70 @@
+@startuml
+
+' ######################################################################################
+' ## Estilos
+' ######################################################################################
+left to right direction
+
+skinparam actor {
+    Style awesome
+
+    BackgroundColor #ccddff
+    BorderColor #001a4d
+}
+
+skinparam usecase {
+    BorderColor #001a4d
+    ArrowColor Blue
+}
+
+' ######################################################################################
+' ## Diagrama
+' ######################################################################################
+
+rectangle "Validadores" {
+    ' Casos de uso
+    usecase "Ver Proxecto" as VerProxectoValidador #LightSteelBlue
+    usecase "Validar Proxecto" as ValidarProxectoValidador #LightSteelBlue
+    usecase "Rexeitar Proxecto" as RexeitarProxectoValidador #LightSteelBlue
+
+    usecase "Ver Historia Produto" as VerHProdutoValidador #Khaki
+    usecase "Validar Historia Produto" as ValidarHProdutoValidador #Khaki
+    usecase "Rexeitar Historia Produto" as RexeitarHProdutoValidador #Khaki
+    usecase "Solicitar Historia Produto" as CrearHProdutoValidador #Khaki
+
+    usecase "Ver Actuación" as VerActuacionValidador #LightGreen
+    usecase "Validar Actuación" as ValidarActuacionValidador #LightGreen
+    usecase "Rexeitar Actuación" as RexeitarActuacionValidador #LightGreen
+    usecase "Solicitar Actuación" as CrearActuacionValidador #LightGreen
+
+    usecase "Pechar Etapa" as PecharEtapa #LightCyan
+}
+
+' ######################################################################################
+' ## Relacións Casos de uso
+' ######################################################################################
+
+VerProxectoValidador <.. ValidarProxectoValidador #Green : Extend
+VerProxectoValidador <.. RexeitarProxectoValidador #Red : Extend
+
+VerProxectoValidador <.. VerHProdutoValidador : Extend
+VerHProdutoValidador <.. ValidarHProdutoValidador #Green : Extend
+VerHProdutoValidador <.. RexeitarHProdutoValidador #Red: Extend
+
+VerProxectoValidador <.. VerActuacionValidador : Extend
+VerActuacionValidador <.. ValidarActuacionValidador #Green : Extend
+VerActuacionValidador <.. RexeitarActuacionValidador #Red : Extend
+
+' Validación OK
+ValidarProxectoValidador <.. PecharEtapa #Green : Extend
+ValidarHProdutoValidador <.. PecharEtapa #Green : Extend
+ValidarActuacionValidador <.. PecharEtapa #Green : Extend
+
+' Validación KO
+RexeitarProxectoValidador <... CrearHProdutoValidador #Red : Extend
+RexeitarProxectoValidador <... CrearActuacionValidador #Red : Extend
+RexeitarHProdutoValidador <.. CrearActuacionValidador #Red : Extend
+RexeitarActuacionValidador <.. CrearActuacionValidador #Red : Extend
+
+@enduml
+
