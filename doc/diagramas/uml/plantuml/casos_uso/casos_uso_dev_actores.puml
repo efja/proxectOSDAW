@@ -1,5 +1,5 @@
 
-@startuml
+@startuml CUDevActores
 
 !include casos_uso_dev.puml
 

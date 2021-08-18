@@ -6,6 +6,10 @@
 
 ## Modelo conceptual do dominio da aplicación
 
+![dominio]
+
+## Modelo clases
+
 ![clases-main]
 
 <div style="page-break-after: always;"></div>
@@ -75,6 +79,8 @@ Poderedes entregar a captura do phpMyAdmin se empregades MariaDB como Modelo rel
    [orzamento]: <a3_orzamento.md>
 
    <!-- DIAGRAMAS -->
+   [dominio]: <../diagramas/uml/svg/dominio.svg>
+
    [clases-main]: <../diagramas/uml/svg/clases/00_main.svg>
 
    [casos-uso]: <../diagramas/uml/svg/casos_uso/casos_uso.svg>

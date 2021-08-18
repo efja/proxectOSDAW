@@ -1,4 +1,4 @@
-@startuml
+@startuml CUAdminActores
 
 !include casos_uso_admin.puml
 

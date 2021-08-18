@@ -1,4 +1,4 @@
-@startuml
+@startuml CUOwnerActores
 
 !include casos_uso_propietario.puml
 

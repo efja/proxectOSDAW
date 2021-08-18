@@ -1,0 +1,20 @@
+@startuml Dominio
+
+left to right direction
+skinparam BackgroundColor transparent
+skinparam componentStyle rectangle
+
+component "Interface de usuario" as UI #LightSkyBlue
+
+component Backend {
+    component "API externa" as API #LightPink
+    component "API persistencia" as PERSIS #LightGreen
+}
+
+UI --> API #Blue : Solicitude Usuario
+UI <-- API #Red : Resposta ó Usuario
+
+API <-- PERSIS #Red : Resposta dende a BD
+API --> PERSIS #Blue : Solicitude á BD
+
+@enduml

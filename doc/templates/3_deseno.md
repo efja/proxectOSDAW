@@ -6,21 +6,27 @@
 
 ## Modelo conceptual do dominio da aplicación
 
-  ```plantuml {r my-chunk, R.options = list(width = 50)}
-  scale 1000 width
+```plantuml {r my-chunk, R.options = list(width = 50)}
+!include ../diagramas/uml/plantuml/dominio.puml
+```
 
-  !include ../diagramas/uml/plantuml/clases/00_main.puml
-  ```
+## Modelo clases
+
+```plantuml
+scale 1000 width
+
+!include ../diagramas/uml/plantuml/clases/00_main.puml
+```
 
 <div style="page-break-after: always;"></div>
 
 ## Casos de uso
 
-  ```plantuml {r my-chunk, R.options = list(width = 50)}
-  scale 900 width
+```plantuml
+scale 1000 width
 
-  !include ../diagramas/uml/plantuml/casos_uso/casos_uso.puml
-  ```
+!include ../diagramas/uml/plantuml/casos_uso/casos_uso.puml
+```
 
 <div style="page-break-after: always;"></div>
 
