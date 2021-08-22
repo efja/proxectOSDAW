@@ -1,0 +1,9 @@
+[submodule "proxectOS-UI"]
+	path = proxectOS-UI
+	url = git@github.com:efja/proxectoDAW-UI.git
+[submodule "proxectOS-DB"]
+	path = proxectOS-DB
+	url = git@github.com:efja/proxectoDAW-DB.git
+[submodule "proxectOS-API"]
+	path = proxectOS-API
+	url = git@github.com:efja/proxectoDAW-API.git
