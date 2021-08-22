@@ -20,13 +20,13 @@ Tamén se contempla a posibilidade de que teñan acceso á información (ou part
 
 **Contacto:** a18franciscogc@iessanclemente.net
 
-O meu nome é **Fco. Javier González Campos** e son técnico superior en **ASI** (Administración de Sistemas Informáticos) e **DAM** (Desenvolvemento de Aplicacións Multiplataforma) `(espero que en breve)`, tamén son membro de **Inestable**, a Asociación de Usuarios de GNU/Linux de Ordes (aínda que actualmente estamos sen actividade pública).
+O meu nome é **Fco. Javier González Campos** e son técnico superior en **ASI** (Administración de Sistemas Informáticos), en **DAM** (Desenvolvemento de Aplicacións Multiplataforma) e **DAW** (Desenvolvemento de Aplicacións Web) `(espero que en breve)`, tamén son membro de **Inestable**, a Asociación de Usuarios de GNU/Linux de Ordes (aínda que actualmente estamos sen actividade pública).
 
 Algunhas das tecnoloxías que domino son:
 
 * Sistemas Operativos GNU/Linux e Windows (estacións de traballo e servidores)
 * Administración de redes
-* Linguaxes de programacións: `Java, Python, VB.NET, C#, C/C++ e Pascal`
+* Linguaxes de programacións: `Java, Python, JavaScript, TypeScript, PHP, VB.NET, C#, C/C++ e Pascal`
 * Sistemas Xestores de BD: `MySQL, MS SQL Server, MongoDB, PostgreSQL e Oracle`
 
 Despois de algo máis de 15 anos de experiencia na administrción e mantemento de equipos informáticos non atopei ningún software que se adaptase ó 100% ás necesidades que tiña para a documentación e o seguimento das actividades profesionais realizadas. Por ese motivo decidín iniciar este proxecto e así tentar cubrir esas demandas intentando xeneralizar o proxecto todo o posible para abarcar o mair número de sectores e calquera outro con requisitos parecidos.
@@ -81,6 +81,9 @@ Lista de autores:
 | [FSF]                                         | Free Software Foundation
 | [GNU-AGPL]                                    | Licenza GNU-AGPL
 | [Repositorio Proxecto][repoProxecto]          | Repositorio deste proxecto
+| [Repositorio Proxecto API][repoProxecto-API]  | Repositorio da API deste proxecto
+| [Repositorio Proxecto BD][repoProxecto-DB]    | Repositorio da API de xestión da BD deste proxecto
+| [Repositorio Proxecto UI][repoProxecto-UI]    | Repositorio da Interface de Usuario deste proxecto
 
 [//]: # (Listado dos links empregados)
 
@@ -131,3 +134,9 @@ Lista de autores:
    [logo]: <doc/img/logos/ProxectOS_logo1_400x85.png>
 
    [repoProxecto]: <https://github.com/efja/proxectoDAW>
+
+   [repoProxecto-API]: <https://github.com/efja/proxectoDAW-API>
+
+   [repoProxecto-DB]: <https://github.com/efja/proxectoDAW-DB>
+
+   [repoProxecto-UI]: <https://github.com/efja/proxectoDAW-UI>

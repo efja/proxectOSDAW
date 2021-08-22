@@ -10,12 +10,6 @@ Decidín ramificar o proxecto do seguinte xeito:
 |:-                 |:-
 | master            | Integrar as versións listas para produción das outras ramas
 | documentacion     | Desenvolvemento da documentación do proxecto
-| api               | Desenvolvemento do código da `API`
-| frontal           | Desenvolvemento do código do `FRONTAL`
-| persistencia      | Desenvolvemento do código do `Sistema de persitencia de datos`
-| test_api          | Test da `API`
-| test_frontal      | Test do `FRONTAL`
-| test_persistencia | Test do `Sistema de persitencia de datos`
 
 ## Etiquetas
 
@@ -37,11 +31,11 @@ Información sobre os `prefixos` e os `sufixos`:
 | rc        | Versión na última fase de probas antes de ser promovida como versión en produción `release candidate`
 | v         | Versión estable `release branch` para implementar en produción
 
-| SUFIXOS       | PROPÓSITO
-|:-             |:-
-| api           | Indicará que o versionado corresponde ó módulo da `API`
-| frontal       | Indicará que o versionado corresponde ó módulo do `FRONTAL`
-| persistencia  | Indicará que o versionado corresponde ó módulo do `persistencia de datos`
+| SUFIXOS   | PROPÓSITO
+|:-         |:-
+| api       | Indicará que o versionado corresponde ó módulo da `API`
+| ui        | Indicará que o versionado corresponde ó módulo do `FRONTAL`
+| db        | Indicará que o versionado corresponde ó módulo do `persistencia de datos`
 
 Estas etiquetas serán idénticas á versión do package.json a excepción dos prefixos e sufixos que serán suprimidos.
 
