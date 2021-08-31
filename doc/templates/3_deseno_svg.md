@@ -8,12 +8,6 @@
 
 ![dominio]
 
-## Modelo clases
-
-![clases-main]
-
-<div style="page-break-after: always;"></div>
-
 ## Casos de uso
 
 ![casos-uso]
@@ -40,7 +34,11 @@ Nesta fase tamén teremos que realizar:
 - Modelo relacional
   - // TODO:
 
-Poderedes entregar a captura do phpMyAdmin se empregades MariaDB como Modelo relacional.
+## Modelo clases
+
+![clases-main]
+
+<div style="page-break-after: always;"></div>
 
 [//]: # (Listado dos links empregados)
 
