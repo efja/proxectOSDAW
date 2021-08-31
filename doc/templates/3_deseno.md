@@ -10,14 +10,6 @@
 !include ../diagramas/uml/plantuml/dominio.puml
 ```
 
-## Modelo clases
-
-```plantuml
-scale 1000 width
-
-!include ../diagramas/uml/plantuml/clases/00_main.puml
-```
-
 <div style="page-break-after: always;"></div>
 
 ## Casos de uso
@@ -50,7 +42,13 @@ Nesta fase tamén teremos que realizar:
 - Modelo relacional
   - // TODO:
 
-Poderedes entregar a captura do phpMyAdmin se empregades MariaDB como Modelo relacional.
+## Modelo clases
+
+```plantuml
+scale 1000 width
+
+!include ../diagramas/uml/plantuml/clases/00_main.puml
+```
 
 [//]: # (Listado dos links empregados)
 
