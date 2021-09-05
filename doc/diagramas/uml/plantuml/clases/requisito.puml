@@ -1,0 +1,40 @@
+@startuml Requisito
+
+!startsub PARCIAL
+    class Requisito #Khaki ##DarkKhaki {
+        ' Propiedades
+        {field} data_creacion: Date
+        {field} data_ini: Date
+        {field} data_fin: Date
+        {field} data_ini_prevista: Date
+        {field} data_fin_prevista: Date
+
+        {field} nome: string
+        {field} descricion: string
+
+        ' Métodos
+        {method} create()
+        {method} update()
+        {method} delete()
+    }
+
+    Etapa "0..*" --o Requisito
+    Requisito "0..*" o-- Requisito #DarkKhaki : Dependencias
+
+    Estado -- Requisito #DarkGreen
+    EstimacionTempo -- Requisito #GoldenRod
+    Prioridade -- Requisito #DeepPink
+    Tipo -- Requisito #RosyBrown
+
+    Actuacion "0..*" --o Requisito #Green
+
+
+    Requisito -- Usuario #Blue : creador
+    Requisito "1..*" o-- "participan" Usuario #Blue
+    Requisito "0..*" o-- Usuario #Blue : Validadores <
+    Requisito "0..*" o-- Repo #OrangeRed
+    Requisito "1..*" o-- Rol #DarkBlue : Asignados <
+    Requisito "0..*" o-- Comentario #Black
+!endsub
+
+@enduml

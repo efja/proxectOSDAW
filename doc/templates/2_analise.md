@@ -127,7 +127,7 @@ Este traballo dividirase en tres partes:
       validadores: [],
       roles: [],
       etapas: [],
-      historias: [],
+      requisitos: [],
       comentarios: [],
     }
   ```
@@ -151,7 +151,7 @@ Este traballo dividirase en tres partes:
       validadores: [],
       roles: [],
       etapas: [],
-      historias: [],
+      requisitos: [],
       comentarios: [],
     }
   ```
@@ -219,10 +219,10 @@ Este traballo dividirase en tres partes:
 
 <div style="page-break-after: always;"></div>
 
-### 2.5. Xestión de historias
+### 2.5. Xestión de requisitos
 
   ```plantuml
-  !include ../diagramas/uml/plantuml/clases/historia_produto.puml
+  !include ../diagramas/uml/plantuml/clases/requisito.puml
   ```
 
   <div style="page-break-after: always;"></div>
@@ -251,7 +251,7 @@ Este traballo dividirase en tres partes:
       comentarios: [],
       etapas: [],
       actuacions: [],
-      dependencias: [ historias ],
+      dependencias: [ requisitos ],
     }
   ```
 
@@ -276,7 +276,7 @@ Este traballo dividirase en tres partes:
       comentarios: [],
       etapas: [],
       actuacions: [],
-      dependencias: [ historias ],
+      dependencias: [ requisitos ],
     }
   ```
 

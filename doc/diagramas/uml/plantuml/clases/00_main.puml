@@ -111,27 +111,6 @@ class HistoricoEstado #GreenYellow ##DarkGreen {
 }
 
 ' ################################################################################
-' ## HistoriaProduto
-' ################################################################################
-
-class HistoriaProduto #Khaki ##DarkKhaki {
-    ' Propiedades
-    {field} data_creacion: Date
-    {field} data_ini: Date
-    {field} data_fin: Date
-    {field} data_ini_prevista: Date
-    {field} data_fin_prevista: Date
-
-    {field} nome: string
-    {field} descricion: string
-
-    ' Métodos
-    {method} create()
-    {method} update()
-    {method} delete()
-}
-
-' ################################################################################
 ' ## Prioridade
 ' ################################################################################
 
@@ -178,6 +157,27 @@ class Repo #GhostWhite ##OrangeRed {
     {field} nome: string
     {field} descricion: string
     {field} uri: string
+
+    ' Métodos
+    {method} create()
+    {method} update()
+    {method} delete()
+}
+
+' ################################################################################
+' ## Requisito
+' ################################################################################
+
+class Requisito #Khaki ##DarkKhaki {
+    ' Propiedades
+    {field} data_creacion: Date
+    {field} data_ini: Date
+    {field} data_fin: Date
+    {field} data_ini_prevista: Date
+    {field} data_fin_prevista: Date
+
+    {field} nome: string
+    {field} descricion: string
 
     ' Métodos
     {method} create()
@@ -259,7 +259,7 @@ Actuacion "1..*" o-- "participan" Usuario #Blue
 Actuacion "0..*" o-- Usuario  #Blue: Validadores <
 Actuacion "1..*" o-- Rol #DarkBlue : Asignados <
 Actuacion "0..*" o-- Comentario #Black
-Actuacion "0..*" -o HistoriaProduto #Green
+Actuacion "0..*" -o Requisito #Green
 
 'Comentario
 Comentario -- Usuario #Blue : Creador
@@ -275,16 +275,16 @@ Etapa "0..*" o-- Comentario #Black
 
 Etapa "0..*" --o Proxecto #SteelBlue
 Etapa "0..*" --o Actuacion #Green
-Etapa "0..*" --o HistoriaProduto
+Etapa "0..*" --o Requisito
 
 'EstimacionTempo
-EstimacionTempo -- HistoriaProduto #GoldenRod
+EstimacionTempo -- Requisito #GoldenRod
 EstimacionTempo -- Actuacion #GoldenRod
 
 'Estado
 Estado -- Actuacion #DarkGreen
 Estado -- Proxecto #DarkGreen
-Estado -- HistoriaProduto #DarkGreen
+Estado -- Requisito #DarkGreen
 
 'HistoricoEstado
 HistoricoEstado -- Usuario #Blue : Creador
@@ -292,18 +292,18 @@ HistoricoEstado "1..*" o-- Rol #DarkBlue : Visivilidade <
 HistoricoEstado - Estado #DarkGreen : Previo
 HistoricoEstado - Estado #DarkGreen : Novo
 
-'HistoriaProduto
-HistoriaProduto "0..*" o-- HistoriaProduto #DarkKhaki : Dependencias
-HistoriaProduto -- Usuario #Blue : creador
-HistoriaProduto "1..*" o-- "participan" Usuario #Blue
-HistoriaProduto "0..*" o-- Usuario #Blue : Validadores <
-HistoriaProduto "1..*" o-- Rol #DarkBlue : Asignados <
-HistoriaProduto "0..*" o-- Comentario #Black
-HistoriaProduto "0..*" -o Proxecto #DarkKhaki
+'Requisito
+Requisito "0..*" o-- Requisito #DarkKhaki : Dependencias
+Requisito -- Usuario #Blue : creador
+Requisito "1..*" o-- "participan" Usuario #Blue
+Requisito "0..*" o-- Usuario #Blue : Validadores <
+Requisito "1..*" o-- Rol #DarkBlue : Asignados <
+Requisito "0..*" o-- Comentario #Black
+Requisito "0..*" -o Proxecto #DarkKhaki
 
 'Prioridade
 Prioridade -- Actuacion #DeepPink
-Prioridade -- HistoriaProduto #DeepPink
+Prioridade -- Requisito #DeepPink
 
 'Proxecto
 
@@ -314,14 +314,14 @@ Proxecto "0..*" o-- Comentario #Black
 
 'Repo
 Repo -o "0..*" Proxecto #OrangeRed
-Repo -o "0..*" HistoriaProduto #OrangeRed
+Repo -o "0..*" Requisito #OrangeRed
 Repo --- Usuario #Blue : Creador
 Repo "1..*" --- Rol #DarkBlue : Visivilidade <
 
 'Rol
 
 'Tipo
-Tipo -- HistoriaProduto #RosyBrown
+Tipo -- Requisito #RosyBrown
 Tipo -- Actuacion #RosyBrown
 
 'Usuario
