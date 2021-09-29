@@ -1,9 +1,9 @@
 [submodule "proxectOS-UI"]
 	path = proxectOS-UI
-	url = git@github.com:efja/proxectoDAW-UI.git
+	url = ssh://git@gitlab.iessanclemente.net:60600/a18franciscogc/proxectos-ui.git
 [submodule "proxectOS-DB"]
 	path = proxectOS-DB
-	url = git@github.com:efja/proxectoDAW-DB.git
+	url = ssh://git@gitlab.iessanclemente.net:60600/a18franciscogc/proxectos-db.git
 [submodule "proxectOS-API"]
 	path = proxectOS-API
-	url = git@github.com:efja/proxectoDAW-API.git
+	url = ssh://git@gitlab.iessanclemente.net:60600/a18franciscogc/proxectos-api.git
