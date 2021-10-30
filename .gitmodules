@@ -1,6 +1,6 @@
 [submodule "proxectOS-UI"]
 	path = proxectOS-UI
-	url = https://gitlab.iessanclemente.net/a18franciscogc/proxectos-api.git
+	url = https://gitlab.iessanclemente.net/a18franciscogc/proxectos-ui.git
 [submodule "proxectOS-DB"]
 	path = proxectOS-DB
 	url = https://gitlab.iessanclemente.net/a18franciscogc/proxectos-db.git
